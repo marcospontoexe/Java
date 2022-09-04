@@ -1,21 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package cursoemvideo.olamundo;
 
-/**
- *
- * @author marcos
- */
-public class OlaMundoJava extends javax.swing.JFrame {
+
+public class OlaMundoJava extends javax.swing.JFrame { // A classe OlaMundoJava herda os objetos da classe javax.swing.JFrame
 
     /**
      * Creates new form OlaMundoJava
      */
     public OlaMundoJava() {
         initComponents();
-    }
+    }   //método da classe OlaMundoJava
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -70,6 +63,7 @@ public class OlaMundoJava extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnClickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClickActionPerformed
+         
         // Eventos realizados ao apertar o botão btnClick:
         lblMensagem.setText("Olá Mundo!");  //configura o texto do lblMensagem
     }//GEN-LAST:event_btnClickActionPerformed
