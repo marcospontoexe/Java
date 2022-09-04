@@ -1,0 +1,5 @@
+A biblioteca Swing é ultilizada para aplicações gráficas.
+
+Ao criar o projeto é importante deixar a opção 'creat main class' dasabilitada, e ao criar um novo 
+arquivo.java, escolher a opção 'swing GUI' e não 'java' (que é o padrão quando criamos o projeto com a opção 'creat main class' habilitada)
+
