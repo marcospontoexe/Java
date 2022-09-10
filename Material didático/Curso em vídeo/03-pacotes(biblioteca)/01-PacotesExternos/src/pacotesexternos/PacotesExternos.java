@@ -10,6 +10,9 @@ public class PacotesExternos {
         System.out.println("O dia e hora atual eh:");
         System.out.println(relogio.toString());         /* converte o objeto em string */
         
+        //int ano = Integer.parseInt(relogio.getYear().ToString());
+        System.out.println(relogio.getYear());
+        
     }
     
 }
