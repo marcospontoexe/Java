@@ -18,7 +18,7 @@ public class TelaGenio extends javax.swing.JFrame {
     public TelaGenio() {        //construtor
         initComponents();
         //Usando html dentro do java
-        lblFrase.setText("<html>Pensar num valor de <strong>1 a 5</strong>, tente adivinhar...</html>");
+        lblFrase.setText("<html>Eu vou pensar num valor de <strong>1 a 5</strong>, tente adivinhar...</html>");
     }
 
     /**
@@ -38,7 +38,7 @@ public class TelaGenio extends javax.swing.JFrame {
         btnPalpite = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(102, 255, 204));
+        setBackground(new java.awt.Color(255, 255, 255));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -50,7 +50,7 @@ public class TelaGenio extends javax.swing.JFrame {
         lblFrase.setText("jLabel1");
         getContentPane().add(lblFrase, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 110, 80));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/balão.jpg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/balão.png"))); // NOI18N
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
