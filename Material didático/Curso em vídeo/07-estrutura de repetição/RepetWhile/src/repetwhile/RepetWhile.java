@@ -24,7 +24,9 @@ public class RepetWhile {
                 continue;       //volta imediatamente para o início do laço de repetição, e não imprime o n´mero 5
             }
             
-            
+            if(cont == 9){
+                break;      //sai do laço imediatamente, não imprimindo os números 9 e 10
+            }
             
             System.out.println("c: " + cont);
         }
