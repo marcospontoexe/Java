@@ -18,9 +18,9 @@ public class CondicaoIf {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner teclado = new Scanner(System.in);   //Objeto para manipular as entradas do sistema
-        System.out.print("Digite a primeira nota do aluno:");
+        System.out.print("Digite a primeira nota do aluno: ");
         float n1 = teclado.nextFloat();
-        System.out.print("Digite a segunda nota do aluno:");
+        System.out.print("Digite a segunda nota do aluno: ");
         float n2 = teclado.nextFloat();
         
         float media = (n1+n2)/2;
@@ -28,6 +28,10 @@ public class CondicaoIf {
         if(media >= 7){
             System.out.println("Média: " + media);
             System.out.println("Aluno aprovado. PARABÉNS!");
+        }
+        else if (media >=6 && media <7){
+            System.out.println("Média: " + media);
+            System.out.println("Aluno em recuperação. CUIDADO!");
         }
         else{
             System.out.println("Média: " + media);
