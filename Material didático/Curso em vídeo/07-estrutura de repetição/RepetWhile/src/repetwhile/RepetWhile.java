@@ -19,6 +19,13 @@ public class RepetWhile {
         
         while(cont < 10){
             cont++;
+            
+            if(cont == 5){
+                continue;       //volta imediatamente para o início do laço de repetição, e não imprime o n´mero 5
+            }
+            
+            
+            
             System.out.println("c: " + cont);
         }
     }
