@@ -15,7 +15,10 @@ public class RepetFor {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+                
+        for(int cont = 0; cont<=100; cont +=10){
+            System.out.println("cont: " + cont);
+        }
     }
     
 }
