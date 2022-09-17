@@ -4,6 +4,8 @@
  */
 package objetos;
 
+import classes.Fatorial;
+
 /**
  *
  * @author marcos
