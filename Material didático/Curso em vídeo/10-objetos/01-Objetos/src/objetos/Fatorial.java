@@ -15,6 +15,7 @@ public class Fatorial {
     private String formula ="";
     
     //DECLARAÇÃO E MÉTODOS
+    //define o estado dos atributos
     public void setValor(int n){    //método de alterar um atributo privado
         num = n;        //método de alterar um atributo privado
         int f = 1;
@@ -29,10 +30,10 @@ public class Fatorial {
         
     }
     
+    // retorna o estado dos atributos 
     public int getFatorial(){
         return fat;
-    }
-    
+    }    
     public String getFormula(){
         return formula;
     }
