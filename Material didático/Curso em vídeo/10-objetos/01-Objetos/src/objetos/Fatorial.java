@@ -10,7 +10,7 @@ package objetos;
  */
 public class Fatorial {
     //DECLARAÇÃO DOS ATRIBUTOS
-    private int num = 0;        //modificador de visibilidade: public(-), private(+), protect(#)
+    private int num = 0;        //modificador de visibilidade: public(-), private(+), protected(#)
     private int fat = 1;        //Indica o níveis de acesso aos atributos e métodos de uma classe
     private String formula =""; //private torna o acesso dos atributos disponíveis apenas dentro da classe pertecentes
     
@@ -18,13 +18,20 @@ public class Fatorial {
     Indica o níveis de acesso aos atributos e métodos de uma classe;
     public(-): Qualquer classe tem acesso aos atributos e métodos
     private(+): Apenas a classe proprietária do atributos ou método tem acesso
-    protect(#): Classes mães e filhas podem ter acesso aos atributos e métodos
+    protected(#): Classes mães e filhas podem ter acesso aos atributos e métodos
     */
     
     //DECLARAÇÃO E MÉTODOS
+    //construtor
+    
+    
+    
+    /*  Metódos acessores (getter e setter)
+    Permite alterar acessar atributos e métodos privados
+    */
     //define o estado dos atributos
-    public void setValor(int n){    //método de alterar um atributo privado
-        num = n;        //método de alterar um atributo privado
+    public void setValor(int n){    
+        num = n;        
         int f = 1;
         String temp = "";
         for(int i = n; i>1; i--){
