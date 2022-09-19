@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package objetos;
+package classes;
 
 /**
  *
@@ -22,7 +22,10 @@ public class Fatorial {
     */
     
     //DECLARAÇÃO E MÉTODOS
-    //construtor
+    public Fatorial(String val){                  //construtor é executado sempre que um objeto é instanciado(criado)
+        formula = "calculando fatorial..."; 
+        System.out.println(val);
+    }
     
     
     
