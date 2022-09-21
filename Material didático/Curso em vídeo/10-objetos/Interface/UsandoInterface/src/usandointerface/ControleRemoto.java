@@ -58,15 +58,14 @@ public class ControleRemoto implements Controlador{     // A classe 'ControleRem
                 System.out.println("|");
             }else{
                 System.out.println("-");
-            }
-            
-        }
-        
-        
+            }            
+        }      
     }
 
     @Override
     public void fecharInfor() {
+        System.out.println("Fechando menu...");
+        
     }
 
     @Override
