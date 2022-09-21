@@ -29,13 +29,8 @@ public class ControleRemoto implements Controlador{     // A classe 'ControleRem
     }
 
     public void setVolume(int volume) {
-        while(true){
-            if (volume >= 0 || volume <= 100){
-                this.volume = volume;
-                break;
-            }
-            System.out.println("Volume entre 0 e 100! Digite novamente!");
-        }        
+        this.volume = volume;
+               
     }
 
     // MÉTODOS ABSTRATOS
@@ -52,14 +47,15 @@ public class ControleRemoto implements Controlador{     // A classe 'ControleRem
     @Override
     public void abrirInfo() {
         System.out.println("Esta ligado: "+ this.getLigado());
-        System.out.print("Volume: ");
-        for(int i = 0; i <= 100; i+=5){
-            if(i <= this.getVolume()){
-                System.out.println("|");
+        System.out.print("Volume "+"("+this.getVolume()+"): ");
+        for(int i = 0; i < 100; i+=5){
+            if(i < this.getVolume()){
+                System.out.print("|");
             }else{
-                System.out.println("-");
+                System.out.print("-");
             }            
-        }      
+        } 
+        System.out.println("");
     }
 
     @Override
@@ -70,18 +66,30 @@ public class ControleRemoto implements Controlador{     // A classe 'ControleRem
 
     @Override
     public void aumentarVol() {
+        if((this.getLigado()) && (volume >= 0 || volume <= 100)){
+            this.setVolume(this.getVolume()+5);
+        }
     }
 
     @Override
     public void diminuirVol() {
+        if((this.getLigado()) && (volume >= 0 || volume <= 100)){
+            this.setVolume(this.getVolume()-5);
+        }
     }
 
     @Override
     public void ligarMudo() {
+        if(this.getLigado() && volume != 0){
+            this.setVolume(0);
+        }
     }
 
     @Override
     public void desligarMudo() {
+        if(this.getLigado() && volume == 0){
+            this.setVolume(50);
+        }
     }
 
     
