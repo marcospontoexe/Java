@@ -13,8 +13,8 @@ public class Main {
         l[4] = new Lutadores("UfoCobol", "Brasil", 37, 1.70f, 119.3f, 5, 4, 3);
         l[5] = new Lutadores("NerdArt", "Portugual", 30, 1.81f, 105.7f, 12, 2, 4);
 
-        l[5].apresentar();
-        l[5].status();        
+        l[0].apresentar();
+        l[0].status();        
     }
     
 }
