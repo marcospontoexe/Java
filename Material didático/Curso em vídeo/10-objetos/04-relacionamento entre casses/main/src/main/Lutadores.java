@@ -9,7 +9,7 @@ public class Lutadores {
     
     //  MÉTODOS
     //construtor
-    public Lutadores(String nome, String nacionalidade, int idade, int vitorias, int derrotas, int empates, float altura, float peso) {
+    public Lutadores(String nome, String nacionalidade, int idade, float altura, float peso, int vitorias, int derrotas, int empates) {
         this.nome = nome;
         this.nacionalidade = nacionalidade;
         this.idade = idade;
@@ -17,7 +17,8 @@ public class Lutadores {
         this.derrotas = derrotas;
         this.empates = empates;
         this.altura = altura;
-        this.peso = peso;
+        this.setPeso(peso);         //chama o método setPeso(para atribuir o peso e calcular a categoria)
+       
     } 
 
     public String getNome() {
@@ -118,11 +119,11 @@ public class Lutadores {
         
     }
     
-    public void stutus(){
+    public void status(){
         System.out.println(this.getNome()+ " é da categoria " + this.getCategoria());
-        System.out.println("Ganhou " + this.getVitorias() + "vezes.");
-        System.out.println("Perdeu " + this.getDerrotas() + "vezes");
-        System.out.println("E empatou "+ this.getEmpates() + "vezes");
+        System.out.println("Ganhou " + this.getVitorias() + " vezes.");
+        System.out.println("Perdeu " + this.getDerrotas() + " vezes");
+        System.out.println("E empatou "+ this.getEmpates() + " vezes");
         
     }
     
