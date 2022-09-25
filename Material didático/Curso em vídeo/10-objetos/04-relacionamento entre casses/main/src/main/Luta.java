@@ -8,7 +8,7 @@ import java.util.Random;
  * @author marcos
  */
 public class Luta {
-    // ATRIBUTOS
+    // seta classe se relaciona com a classe lutadores, construindo uma agregação entre objetos de classes diferentes
     private Lutadores desafiado;        // 'desafiado' é um tipo abstrato (e não primitiva). "desafiado" é uma instnacia da classe Lutadores(), é um objeto da classe Lutadores()
     private Lutadores desafiante;
     private int rounds;
