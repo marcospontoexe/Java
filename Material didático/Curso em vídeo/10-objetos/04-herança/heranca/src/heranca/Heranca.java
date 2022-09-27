@@ -38,7 +38,7 @@ public class Heranca {
         System.out.println(p5.toString());
         
         p2.pagarMensalidade();
-        p5.pagarMensalidade();  //método sobrestcrito
+        p5.pagarMensalidade();  //método sobreposto
     }
     
 }

@@ -4,7 +4,7 @@ A classe Tecnico(), é uma especialização de aluno.
 É uma classe folha (classe final).
 */
 
-public class Tecnico extends Aluno {
+public final class Tecnico extends Aluno {  // CLASSE FINAL
     //atributos
     private float registroProfissional;
     
