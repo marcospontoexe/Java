@@ -1,14 +1,19 @@
 package heranca;
+/*
+HERANÇA PARA DIFERENÇA: A classe filha possui atributos e métodos que a classe mãe não possui.
+O 'extends' faz a classe 'Aluno()' herdar características da classe 'Pessoa()'. 
+Aluno() é classe filha de Pessoas()
+*/
 
 
-public class Aluno extends Pessoa{        //O 'extends' faz a classe 'Aluno()' herdar características da classe 'Pessoa()'. Aluno() é classe filha de Pessoas()
-    // atributos
-    private int matricula;
-    private String curso;
+public class Aluno extends Pessoa{            
+    // atributos protegidos, da acesso às classes filhas.
+    protected int matricula;
+    protected String curso;
     
     //métodos
-    public void cancelarMatricula(){
-        System.out.println("A matrícula será cancelada.");
+    public void pagarMensalidade(){
+        System.out.println("Pagando mensalidade de aluno.");
     }
 
     public int getMatricula() {

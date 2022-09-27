@@ -1,12 +1,15 @@
 package heranca;
+/*
+A classe Pessoa() é uma classe abstrata.
+*/
 
-public class Pessoa {       // CLASSE MÃE
+public abstract class Pessoa {       // CLASSE MÃE (ABSTRATA)
     //atributos     
     private String nome;
     private String sexo;
     private int idade;
     
-    //  métodos
+    //  MÉTODOS ABSTRATOS
     public void fazerAniversario(){
         this.idade++;
     }
