@@ -4,7 +4,7 @@ Classes podem criar outras classes filhas (especialização).
 As classes filhas vieram de uma classe mãe (generalizada).
     ---------------------------------------------------
 CLASSE ABSTRATA: Não pode ser instanciada, e so pode servir como classe mãe.
-MÉTODO ABSTRATO: Declarado mas não implementado na classe mãe, e só pode existir dentro de uma Interface ou dentro de uma classe abstrata.
+MÉTODO ABSTRATO: Declarado mas não pode ser implementado na classe mãe, e só pode existir dentro de uma Interface ou dentro de uma classe abstrata.
 CLASSE FINAL: É obrigatóriamente folha, não pode ter classe filha.
 MÉTODO FINAL: Não pode gerar uma especialização do método final, é obrigatoriamente herdado.
 */
