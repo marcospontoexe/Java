@@ -9,7 +9,7 @@ public abstract class Pessoa {       // CLASSE MÃE (ABSTRATA)
     private String sexo;
     private int idade;
     
-    //  MÉTODOS ABSTRATOS
+    // métodos
     public final void fazerAniversario(){   // MÉTODO FINAL, não pode ser sobrescrito por outros métodos
         this.idade++;
     }

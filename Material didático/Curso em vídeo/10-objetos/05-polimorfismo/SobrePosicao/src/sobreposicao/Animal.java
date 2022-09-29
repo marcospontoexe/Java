@@ -11,16 +11,11 @@ public abstract class Animal {
     private int idade;
     private int membros;
     
-    //métodos abstratos
-    public void locomover(){
-        
-    }
-    public void alimentar(){
-        
-    }
-    public void emitirSom(){
-        
-    }
+    //MÉTODOS ABSTRATOS (não podem ser instanciado na sua classe).
+    //É obrigatória a implementação dos métodos abstratos nas classes filhas
+    public abstract void locomover();      
+    public abstract void alimentar();
+    public abstract void emitirSom();
 
     public float getPeso() {
         return peso;
