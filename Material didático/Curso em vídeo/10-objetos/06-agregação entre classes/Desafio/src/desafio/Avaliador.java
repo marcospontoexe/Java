@@ -33,7 +33,8 @@ public class Avaliador extends Pessoa{
 
     @Override
     public String toString() {
-        return super.toString() + "\nAvaliador{" + "login=" + login + 
+        return super.toString() //chama o método toString() da classe mãe
+                + "\nAvaliador{" + "login=" + login + 
                 ", totAssistindo=" + totAssistindo + '}';
     }
     
