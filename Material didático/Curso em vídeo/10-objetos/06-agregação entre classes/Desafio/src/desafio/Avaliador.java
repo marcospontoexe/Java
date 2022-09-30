@@ -6,6 +6,14 @@ public class Avaliador extends Pessoa{
     private String login;
     private int totAssistindo;
     
+    //construtor
+    public Avaliador(String login, String nome, int idade, String sexo) {
+        super(nome, idade, sexo);   //passa os atributos do construtor para a classe mãe (Pessoa(), pois tab tem um construtos)
+        this.login = login;
+        this.totAssistindo = 0;
+    }
+    
+    
     //metodos
     public String getLogin() {
         return login;
@@ -21,6 +29,12 @@ public class Avaliador extends Pessoa{
 
     public void setTotAssistindo(int totAssistindo) {
         this.totAssistindo = totAssistindo;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nAvaliador{" + "login=" + login + 
+                ", totAssistindo=" + totAssistindo + '}';
     }
     
 }
