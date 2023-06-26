@@ -17,7 +17,8 @@ public class Objetos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Fatorial f = new Fatorial("construtor criado!"); //cria um novo (new) objeto 'Fatorial', com parâmetro de entrada no construtor
+        Fatorial f = new Fatorial("construtor criado!"); //cria um novo (new) objeto 'Fatorial', com parâmetro de entrada no construtor    
+        
         System.out.println(f.getFormula());              // mostra o estado do atributo 'formula' quando o objeto 'f' é instanciado
         System.out.println("Fatorial de cinco;");
         f.setValor(5);  

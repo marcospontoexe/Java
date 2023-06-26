@@ -13,7 +13,6 @@ public class Fatorial {
     private int num = 0;        //modificador de visibilidade: public(-), private(+), protected(#)
     private int fat = 1;        //Indica o níveis de acesso aos atributos e métodos de uma classe
     private String formula =""; //private torna o acesso dos atributos disponíveis apenas dentro da classe pertecentes
-    
     /* MODIFICADORES DE ACESSO
     Indica o níveis de acesso aos atributos e métodos de uma classe;
     public(-): Qualquer classe tem acesso aos atributos e métodos
@@ -25,9 +24,7 @@ public class Fatorial {
     public Fatorial(String val){                  //construtor é executado sempre que um objeto é instanciado(criado)
         formula = "calculando fatorial..."; 
         System.out.println(val);
-    }
-    
-    
+    }  
     
     /*  Metódos acessores (getter e setter)
     Permite alterar acessar atributos e métodos privados
