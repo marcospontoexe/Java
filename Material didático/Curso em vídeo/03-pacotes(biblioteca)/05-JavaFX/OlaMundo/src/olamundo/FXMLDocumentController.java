@@ -6,11 +6,12 @@ package olamundo;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.event.ActionEvent;
+import javafx.event.ActionEvent;        // importa o evento
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
+//import javafx.scene.control.Button;  // importa o botão
+import javafx.scene.control.Label;     // importa o label
 
 /**
  *
@@ -20,7 +21,8 @@ public class FXMLDocumentController implements Initializable { //cria uma interf
     
     @FXML   //identificação dos controles
     private Label lblMensagem;
-    private Button btnBotao;
+    private Button btnClick;
+    //private Button btnClick;
     
     @FXML
     private void clicouBtn(ActionEvent event) { //função do btnBotao
