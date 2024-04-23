@@ -9,5 +9,7 @@ Este repositório mostra alguns exemplos de uso da linguagem Java e sua sintaxe.
 * Crie **interfaces gráficas** usando a plataforma [JavaFX](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/05-JavaFX).
 * Java é uma linguagem **fortemente tipada**, veja como usar entradas e saidas de dados e manipular variáveis.
 
+![Tipos de variáveis](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/Imagens/vari%C3%A1veis.png).
+
   
   *Em construção...*
