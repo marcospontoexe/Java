@@ -4,9 +4,9 @@ Este repositório mostra alguns exemplos de uso da linguagem Java e sua sintaxe.
 ## Exemplos de uso
 * Veja como usar [pacotes](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)) externos.
 * Crie **interfaces gráficas** usando a biblioteca [Swing](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/04-swing). 
-   * Execute a aplicação de exemplo "[Usando_Swing.jar]"(https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/04-swing/Usando%20Swing/dist).
-   * Execute a aplicação de exemplo "[imagens.jar]"(https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/04-swing/relogio/Imagens/dist) para obeter a data e hora do sistema operacional.
-   * Execute a aplicação "[SwingJanelaAutomatica.jar]"(https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/06-SwingJanelaAutomatica/dist) para um exemplo de interatividade com o usuário.
+   * Execute a aplicação de exemplo ["Usando_Swing.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/04-swing/Usando%20Swing/dist).
+   * Execute a aplicação de exemplo ["imagens.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/04-swing/relogio/Imagens/dist) para obeter a data e hora do sistema operacional.
+   * Execute a aplicação ["SwingJanelaAutomatica.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/06-SwingJanelaAutomatica/dist) para um exemplo de interatividade com o usuário.
 * Crie **interfaces gráficas** usando a plataforma [JavaFX](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/05-JavaFX).
 * Java é uma linguagem **fortemente tipada**, veja como usar [entradas e saidas de dados e manipular variáveis](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/01-Variaveis/src/variaveis/Variaveis.java).
 Abaixo os tipos primitivos das variáveis da linguagem Java.
