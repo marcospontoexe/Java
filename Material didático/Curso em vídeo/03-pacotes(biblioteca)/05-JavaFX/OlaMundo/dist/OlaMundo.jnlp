@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="OlaMundo.jnlp">
+  <information>
+    <title>OlaMundo</title>
+    <vendor>marcos</vendor>
+    <description>OlaMundo</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="OlaMundo.jar" size="2603" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="olamundo.OlaMundo"  name="OlaMundo" />
+  <update check="always"/>
+</jnlp>
