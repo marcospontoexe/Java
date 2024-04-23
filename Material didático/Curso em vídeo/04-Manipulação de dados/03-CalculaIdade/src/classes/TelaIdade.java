@@ -108,7 +108,7 @@ public class TelaIdade extends javax.swing.JFrame {
     private void btnCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalcularActionPerformed
         // método do botão calcular:
         int ano = LocalDate.now().getYear();
-        int anoNasc = Integer.parseInt(txtAno.getValue().toString()); 
+        int anoNasc = Integer.parseInt(txtAno.getValue().toString());       // getValue() para pegar valor de um objeto spinner
         /*
         getValue() é um objeto, e presisa ser convertido para string, e depois para int
         */

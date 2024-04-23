@@ -38,11 +38,13 @@ public class Variaveis {
         
         
         //----------------CONVERSÃO DE VARIÁVEL---------
-        /*converte int para string
+        // converte int para string        
         int idade = 30;
         String idadeStr = Integer.toString(idade);
-        */
-               
+        
+              
+
+        // string para int 
         int n1 = 5;
         String n2 = "2";
         int n3 = Integer.parseInt(n2);
