@@ -39,9 +39,9 @@ public class Variaveis {
         
         //----------------CONVERSÃO DE VARIÁVEL---------
         // converte int para string        
-        int idade = 30;
-        String idadeStr = Integer.toString(idade);
-        
+        int idade1 = 30;
+        String idadeStr = Integer.toString(idade1);        
+        System.out.println(idade1);
               
 
         // string para int 
@@ -50,7 +50,7 @@ public class Variaveis {
         int n3 = Integer.parseInt(n2);
         
         int soma = n1 + n3;
-        System.out.print(soma);
+        System.out.println(soma);
     }
     
 }
