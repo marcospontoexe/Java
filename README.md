@@ -28,7 +28,9 @@ Abaixo os tipos primitivos das variáveis da linguagem Java.
     * Veja como usar a estrutura [`for`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/07-estrutura%20de%20repeti%C3%A7%C3%A3o/03-RepetFor/src/repetfor/RepetFor.java).
 * Variáveis compostas
     * Veja como manipular [vetores](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/08-vetores/01-Vetor/src/vetor/Vetor.java).
-    * [Manipule um vetor]() de forma prática usando a biblioteca Swing, insirindo e apagando valores em qualquer posição usando o mouse
+    * [Manipule um vetor](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/08-vetores/02-VetorSwing/dist) de forma prática usando a biblioteca Swing, insirindo e apagando valores em qualquer posição do vetor usando o mouse.
+* Veja como usar [métodos](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/09-m%C3%A9todos%20(fun%C3%A7%C3%B5es)/01-Metodos/src/metodos).
+
 
 
   
