@@ -51,7 +51,9 @@ public class Vetor {
         System.out.println("O número 8 está na posição: " + posicao);
         
         Arrays.fill(n2, 0);         //preenche todos os índices com o valor 0
-        System.out.print("Arrays.fill(n2, 0); " );       
+        System.out.print("Arrays.fill(n2, 0); " ); 
+        
+        // usando for eath
         for(int valor: n2){
             System.out.print(valor + " | ");
         }
