@@ -46,7 +46,14 @@ A evolução da programação linear deu origem à **programação estruturada**
 > cada uma funciona de forma autônoma. As
 > células poderiam também reagrupar-se para
 > resolver um outro problema ou desempenhar
-> outras funções. 
+> outras funções.
+
+### Vantagens da POO
+Todo software orientado a objetos é:
+* **confiável**: O isolamento entre as parte gera software seguro. Ao alterar uma parte, nenhuma outra é afetada.
+* **Oportuno**: Ao dividir tudo em partes, várias delas podem ser desenvolvidas em paralelo.
+*  **Manutenível**: Atualizar um software é mais fácil. Uma pequena modificação vai beneficiar todas as partes que usarem o objeto.
+
 
 ### O pilares da POO
 A programação orientada a objetos é um paradigma de programação que organiza o código em torno de objetos e dados, em vez de funções e lógica de processamento. Ela se baseia em quatro pilares fundamentais: encapsulamento, herança, polimorfismo e abstração. Aqui está uma visão geral desses conceitos:
