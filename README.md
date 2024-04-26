@@ -34,6 +34,9 @@ Abaixo os tipos primitivos das variáveis da linguagem Java.
 ## Programação orientada a objetos (POO)
 A programação orientada a objetos tme o objetivo de aproximar o mundo digital do mundo real.  
 
+### A evolução dos métodos de programação
+Quando os computadores começaram a surgir, na década de 40, a programação era feita em baixo nível. Quem fornecia as instruções para o cumputador realizar um comando eram os próprios engenheiros que construiam os computadores, e as instruções eram binárias ou decimais. Esse tipo de programação é chamada **linguagem de máquina**
+
 A programação orientada a objetos é um paradigma de programação que organiza o código em torno de objetos e dados, em vez de funções e lógica de processamento. Ela se baseia em quatro pilares fundamentais: encapsulamento, herança, polimorfismo e abstração. Aqui está uma visão geral desses conceitos:
 
 Encapsulamento: O encapsulamento é o conceito de agrupar dados (variáveis) e métodos (funções) que operam nesses dados em uma única unidade chamada objeto. Isso oculta os detalhes de implementação do objeto, permitindo que apenas as operações essenciais sejam acessadas de fora do objeto.
@@ -42,7 +45,7 @@ Polimorfismo: Polimorfismo significa "muitas formas" e refere-se à capacidade d
 Abstração: A abstração é o processo de identificar as características essenciais de um objeto e ignorar os detalhes irrelevantes. Em programação orientada a objetos, as classes fornecem uma forma de abstração, encapsulando os detalhes de implementação e expondo apenas uma interface pública.
 Na POO, os programas são construídos em torno de classes e objetos. Uma classe é um modelo ou plano para criar objetos e define os atributos (dados) e métodos (comportamentos) que os objetos desse tipo possuem. Por exemplo, uma classe "Carro" pode ter atributos como cor, modelo e velocidade, e métodos como acelerar e frear. Os objetos são instâncias de classes - eles representam instâncias específicas do modelo definido pela classe.
 
-A programação orientada a objetos oferece muitos benefícios, incluindo reutilização de código, modularidade, extensibilidade, manutenibilidade e uma representação mais próxima do mundo real. Ela é amplamente utilizada em muitas linguagens de programação, como Java, C++, Python, entre outras.
+A programação orientada a objetos oferece muitos benefícios, incluindo reutilização de código, modularidade, extensibilidade, manutenibilidade e uma representação mais próxima do mundo real.
 
   
   *Em construção...*
