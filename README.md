@@ -69,13 +69,26 @@ Todo objeto possui pelo menos uma característica que descreve oque esse objeto 
 Objetos possuem comportamento responsável em realiza uma ação, em programação esses comportamentos são nomeados de **métodos**.
 
 #### Estado do objeto
-Em programação o estado atual do objeto é manipulado por métodos **getter** e **setter**. O getter diz qual é o estado atual de um determinado atributo do objeto, e o setter altera o estado desse atributo.
+Em programação o estado atual do objeto é manipulado por métodos acessores e modificadores **getter** e **setter**. O getter diz qual é o estado atual de um determinado atributo do objeto, e o setter altera o estado desse atributo.
 
 ### Criando objetos
 Para criar um objeto, antes é necessário planejar o seu molde. A partir desse molde é possível criar inúmeros objetos.
 Esse molde é chamado de **classe** e possui todas as características e comportamento (os atributos e métodos) do objeto a ser criado.
 
 O nome dado ao processo de criação de um objeto a parti de uma classe existente se chama **instanciar** um objeto. Com objeto instanciado (criado) é possível saber qual é o estado atual desse objeto e alterar esse estado, antes disso o estado do objeto é inexistem, pois ainda não foi instanciado.
+
+Veja nesse [repositório](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src) como o código [Objetos.java](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src/objetos/Objetos.java) importa a classe [Fatorial.java](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src/classes/Fatorial.java) e instancia um objeto chamdado "f".
+
+#### Modificadores de acesso
+Indicam o nível de acesso aos atributos e métodos de uma classe Java:
+* **Public**: Qualquer classe tem acesso aos atributos e métodos.
+* **Private**: Apenas a classe proprietária do atributos ou método tem acesso.
+* **Protected**: Classe proprietária e suas sub-classes podem ter acesso aos atributos e métodos.
+
+#### Método construtor
+É um método da classe usado para configurar os atributos e estado de um objeto no momento em que é instanciado, garantindo que o objeto esteja em um estado válido e utilizável. O método construtor tem o mesmo nome da classe em que está definido. O método construtor pode receber parâmetros para criar um objeto ou não.
+
+Veja nesse [código](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src/classes/Fatorial.java) como é definido o nível de acesso dos atributos e métodos, e como o método construtor configura os atributos e estado do objeto no momento do instanciamento.
 
 ### O pilares da POO
 A programação orientada a objetos se baseia em quatro pilares fundamentais: encapsulamento, herança, polimorfismo e abstração:
