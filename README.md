@@ -60,6 +60,8 @@ Todo software orientado a objetos é:
 ### O que é um objeto
 Objeto é uma coisa material ou abstrata que pode ser percebido pelos sentidos e descrita por meios de suas características, comportamento e estado atual. Em programação os objetos são representados por classes, responsável por classificar características, comportamento e estado atual de um objeto.
 
+Por exemplo, uma objeto "Carro" pode ter atributos como cor, modelo, métodos como acelerar e frear, e o estado atual como ligado ou desligado. 
+
 #### A características
 Todo objeto possui pelo menos uma característica que descreve oque esse objeto tem, em programação essas características são chamadas de **atributos**.
 
@@ -71,20 +73,20 @@ Em programação o estado atual do objeto é manipulado por métodos **getter** 
 
 ### Criando objetos
 Para criar um objeto, antes é necessário planejar o seu molde. A partir desse molde é possível criar inúmeros objetos.
-Esse molde é chamado de classe e possui todas as características e comportamento (os atributos e métodos) do objeto a ser criado.
+Esse molde é chamado de **classe** e possui todas as características e comportamento (os atributos e métodos) do objeto a ser criado.
 
 O nome dado ao processo de criação de um objeto a parti de uma classe existente se chama **instanciar** um objeto. Com objeto instanciado (criado) é possível saber qual é o estado atual desse objeto e alterar esse estado, antes disso o estado do objeto é inexistem, pois ainda não foi instanciado.
 
 ### O pilares da POO
-A programação orientada a objetos é um paradigma de programação que organiza o código em torno de objetos e dados, em vez de funções e lógica de processamento. Ela se baseia em quatro pilares fundamentais: encapsulamento, herança, polimorfismo e abstração. Aqui está uma visão geral desses conceitos:
+A programação orientada a objetos se baseia em quatro pilares fundamentais: encapsulamento, herança, polimorfismo e abstração:
+* **Encapsulamento**: O encapsulamento é o conceito de agrupar dados (variáveis) e métodos (funções) que operam nesses dados em uma única unidade chamada objeto. Isso oculta os detalhes de implementação do objeto, permitindo que apenas as operações essenciais sejam acessadas de fora do objeto.
+* **Herança**: A herança permite que uma classe (ou tipo) de objeto herde características e comportamentos de outra classe. Isso promove a reutilização de código e a criação de hierarquias de classes, onde as classes filhas herdam características da classe pai e podem adicionar suas próprias características exclusivas.
+* **Polimorfismo**: Polimorfismo significa "muitas formas" e refere-se à capacidade de um objeto executar diferentes comportamentos dependendo do contexto. Isso é alcançado através de sobrescrita de métodos (métodos com o mesmo nome em classes diferentes) e sobrecarga de métodos (métodos com o mesmo nome, mas com diferentes parâmetros).
+* **Abstração**: A abstração é o processo de identificar as características essenciais de um objeto e ignorar os detalhes irrelevantes. 
 
-Encapsulamento: O encapsulamento é o conceito de agrupar dados (variáveis) e métodos (funções) que operam nesses dados em uma única unidade chamada objeto. Isso oculta os detalhes de implementação do objeto, permitindo que apenas as operações essenciais sejam acessadas de fora do objeto.
-Herança: A herança permite que uma classe (ou tipo) de objeto herde características e comportamentos de outra classe. Isso promove a reutilização de código e a criação de hierarquias de classes, onde as classes filhas herdam características da classe pai e podem adicionar suas próprias características exclusivas.
-Polimorfismo: Polimorfismo significa "muitas formas" e refere-se à capacidade de um objeto executar diferentes comportamentos dependendo do contexto. Isso é alcançado através de sobrescrita de métodos (métodos com o mesmo nome em classes diferentes) e sobrecarga de métodos (métodos com o mesmo nome, mas com diferentes parâmetros).
-Abstração: A abstração é o processo de identificar as características essenciais de um objeto e ignorar os detalhes irrelevantes. Em programação orientada a objetos, as classes fornecem uma forma de abstração, encapsulando os detalhes de implementação e expondo apenas uma interface pública.
-Na POO, os programas são construídos em torno de classes e objetos. Uma classe é um modelo ou plano para criar objetos e define os atributos (dados) e métodos (comportamentos) que os objetos desse tipo possuem. Por exemplo, uma classe "Carro" pode ter atributos como cor, modelo e velocidade, e métodos como acelerar e frear. Os objetos são instâncias de classes - eles representam instâncias específicas do modelo definido pela classe.
+ 
 
-A programação orientada a objetos oferece muitos benefícios, incluindo reutilização de código, modularidade, extensibilidade, manutenibilidade e uma representação mais próxima do mundo real.
+
 
   
   *Em construção...*
