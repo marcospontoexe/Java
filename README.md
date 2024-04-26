@@ -32,10 +32,12 @@ Abaixo os tipos primitivos das variáveis da linguagem Java.
 * Veja como usar [métodos](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/09-m%C3%A9todos%20(fun%C3%A7%C3%B5es)/01-Metodos/src/metodos).
 
 ## Programação orientada a objetos (POO)
-A programação orientada a objetos tme o objetivo de aproximar o mundo digital do mundo real.  
+A programação orientada a objetos tem o objetivo de aproximar o mundo digital do mundo real.  
 
 ### A evolução dos métodos de programação
-Quando os computadores começaram a surgir, na década de 40, a programação era feita em baixo nível. Quem fornecia as instruções para o cumputador realizar um comando eram os próprios engenheiros que construiam os computadores, e as instruções eram binárias ou decimais. Esse tipo de programação é chamada **linguagem de máquina**
+Quando os computadores começaram a surgir, na década de 40, a programação era feita em **baixo nível**. Quem fornecia as instruções para o cumputador realizar um comando eram os próprios engenheiros que construiam os computadores, e as instruções eram binárias ou decimais. Esse tipo de programação é chamada linguagem de máquina. Dando sequência aos métodos de programação, surgil a linguagem de alto nível tornando a **programação linear**, os comandos eram mais compreensíveis para humanos, mas ainda sem rotinas internas.
+
+A evolução da programação linear deu origem à **programação estruturada** no final da década de 60, permitindo que pequenos pedações da programação linear  fosse executado fora da ordem natural, dando origem aos sistemas. Com o crescimento dos sistemas a programação estruturada começou a falhar em sua metodologia, e surgiu a **programação modular**, permitindo o desenvolvimento de software que envolve dividir um programa em partes menores e independentes chamadas módulos. Cada módulo tem uma responsabilidade bem definida e interage com outros módulos através de interfaces claramente definidas. Essa abordagem promove a reutilização de código, a facilidade de manutenção e a escalabilidade do software. Apliando os conceitos da programação modular, surgiu a **programação orientada a objetos**.
 
 A programação orientada a objetos é um paradigma de programação que organiza o código em torno de objetos e dados, em vez de funções e lógica de processamento. Ela se baseia em quatro pilares fundamentais: encapsulamento, herança, polimorfismo e abstração. Aqui está uma visão geral desses conceitos:
 
