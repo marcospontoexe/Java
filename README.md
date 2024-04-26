@@ -57,6 +57,23 @@ Todo software orientado a objetos é:
 *  **Reutilizável**: Podemos usar o objeto de um sistema que criamos em outro sistema fulturo.
 *  **Natural**: Mai fácil de entender. Você se preocupa mais na funcionalidade do que nos detalhes de implementação.
 
+### O que é um objeto
+Objeto é uma coisa material ou abstrata que pode ser percebido pelos sentidos e descrita por meios de suas características, comportamento e estado atual. Em programação os objetos são representados por classes, responsável por classificar características, comportamento e estado atual de um objeto.
+
+#### A características
+Todo objeto possui pelo menos uma característica que descreve oque esse objeto tem, em programação essas características são chamadas de **atributos**.
+
+#### O comportamento do objeto
+Objetos possuem comportamento responsável em realiza uma ação, em programação esses comportamentos são nomeados de **métodos**.
+
+#### Estado do objeto
+Em programação o estado atual do objeto é manipulado por métodos **getter** e **setter**. O getter diz qual é o estado atual de um determinado atributo do objeto, e o setter altera o estado desse atributo.
+
+### Criando objetos
+Para criar um objeto, antes é necessário criar um molde. A partir desse molde é possível criar inúmeros objetos.
+Esse molde é chamado de classe e possui todas as características e comportamento (os atributos e métodos) do objeto a ser criado.
+
+O nome dado ao processo de criação de um objeto a parti de uma classe existente se chama **instanciar** um objeto.
 
 ### O pilares da POO
 A programação orientada a objetos é um paradigma de programação que organiza o código em torno de objetos e dados, em vez de funções e lógica de processamento. Ela se baseia em quatro pilares fundamentais: encapsulamento, herança, polimorfismo e abstração. Aqui está uma visão geral desses conceitos:
