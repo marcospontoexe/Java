@@ -70,7 +70,7 @@ Objetos possuem comportamento responsável em realiza uma ação, em programaç�
 Em programação o estado atual do objeto é manipulado por métodos **getter** e **setter**. O getter diz qual é o estado atual de um determinado atributo do objeto, e o setter altera o estado desse atributo.
 
 ### Criando objetos
-Para criar um objeto, antes é necessário planeja o seu molde. A partir desse molde é possível criar inúmeros objetos.
+Para criar um objeto, antes é necessário planejar o seu molde. A partir desse molde é possível criar inúmeros objetos.
 Esse molde é chamado de classe e possui todas as características e comportamento (os atributos e métodos) do objeto a ser criado.
 
 O nome dado ao processo de criação de um objeto a parti de uma classe existente se chama **instanciar** um objeto. Com objeto instanciado (criado) é possível saber qual é o estado atual desse objeto e alterar esse estado, antes disso o estado do objeto é inexistem, pois ainda não foi instanciado.
