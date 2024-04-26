@@ -39,6 +39,16 @@ Quando os computadores começaram a surgir, na década de 40, a programação er
 
 A evolução da programação linear deu origem à **programação estruturada** no final da década de 60, permitindo que pequenos pedações da programação linear  fosse executado fora da ordem natural, dando origem aos sistemas. Com o crescimento dos sistemas a programação estruturada começou a falhar em sua metodologia, e surgiu a **programação modular**, permitindo o desenvolvimento de software que envolve dividir um programa em partes menores e independentes chamadas módulos. Cada módulo tem uma responsabilidade bem definida e interage com outros módulos através de interfaces claramente definidas. Essa abordagem promove a reutilização de código, a facilidade de manutenção e a escalabilidade do software. Apliando os conceitos da programação modular, surgiu a **programação orientada a objetos**.
 
+**Alan Kay**, o pai da POO, que era formado em biologia e matemática desenvolveu a POO baseado em uma forma natural de como as coisas se relacionam no mundo real. Veja a baixo o seu postulado:
+> O computador ideal deve funcionar como um
+> organismo vivo, isso é, cada célula se relaciona
+> com outras a fim de alcançar um objetivo, mas
+> cada uma funciona de forma autônoma. As
+> células poderiam também reagrupar-se para
+> resolver um outro problema ou desempenhar
+> outras funções. 
+
+### O pilares da POO
 A programação orientada a objetos é um paradigma de programação que organiza o código em torno de objetos e dados, em vez de funções e lógica de processamento. Ela se baseia em quatro pilares fundamentais: encapsulamento, herança, polimorfismo e abstração. Aqui está uma visão geral desses conceitos:
 
 Encapsulamento: O encapsulamento é o conceito de agrupar dados (variáveis) e métodos (funções) que operam nesses dados em uma única unidade chamada objeto. Isso oculta os detalhes de implementação do objeto, permitindo que apenas as operações essenciais sejam acessadas de fora do objeto.
