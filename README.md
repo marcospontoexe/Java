@@ -53,6 +53,9 @@ Todo software orientado a objetos é:
 * **confiável**: O isolamento entre as parte gera software seguro. Ao alterar uma parte, nenhuma outra é afetada.
 * **Oportuno**: Ao dividir tudo em partes, várias delas podem ser desenvolvidas em paralelo.
 *  **Manutenível**: Atualizar um software é mais fácil. Uma pequena modificação vai beneficiar todas as partes que usarem o objeto.
+*  **Extensível**: O software não é estático. Ele deve crescer para permanecer útil.
+*  **Reutilizável**: Podemos usar o objeto de um sistema que criamos em outro sistema fulturo.
+*  **Natural**: Mai fácil de entender. Você se preocupa mais na funcionalidade do que nos detalhes de implementação.
 
 
 ### O pilares da POO
