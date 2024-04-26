@@ -31,7 +31,18 @@ Abaixo os tipos primitivos das variáveis da linguagem Java.
     * [Manipule um vetor](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/08-vetores/02-VetorSwing/dist) de forma prática usando a biblioteca Swing, insirindo e apagando valores em qualquer posição do vetor usando o mouse.
 * Veja como usar [métodos](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/09-m%C3%A9todos%20(fun%C3%A7%C3%B5es)/01-Metodos/src/metodos).
 
+## Programação orientada a objetos (POO)
+A programação orientada a objetos tme o objetivo de aproximar o mundo digital do mundo real.  
 
+A programação orientada a objetos é um paradigma de programação que organiza o código em torno de objetos e dados, em vez de funções e lógica de processamento. Ela se baseia em quatro pilares fundamentais: encapsulamento, herança, polimorfismo e abstração. Aqui está uma visão geral desses conceitos:
+
+Encapsulamento: O encapsulamento é o conceito de agrupar dados (variáveis) e métodos (funções) que operam nesses dados em uma única unidade chamada objeto. Isso oculta os detalhes de implementação do objeto, permitindo que apenas as operações essenciais sejam acessadas de fora do objeto.
+Herança: A herança permite que uma classe (ou tipo) de objeto herde características e comportamentos de outra classe. Isso promove a reutilização de código e a criação de hierarquias de classes, onde as classes filhas herdam características da classe pai e podem adicionar suas próprias características exclusivas.
+Polimorfismo: Polimorfismo significa "muitas formas" e refere-se à capacidade de um objeto executar diferentes comportamentos dependendo do contexto. Isso é alcançado através de sobrescrita de métodos (métodos com o mesmo nome em classes diferentes) e sobrecarga de métodos (métodos com o mesmo nome, mas com diferentes parâmetros).
+Abstração: A abstração é o processo de identificar as características essenciais de um objeto e ignorar os detalhes irrelevantes. Em programação orientada a objetos, as classes fornecem uma forma de abstração, encapsulando os detalhes de implementação e expondo apenas uma interface pública.
+Na POO, os programas são construídos em torno de classes e objetos. Uma classe é um modelo ou plano para criar objetos e define os atributos (dados) e métodos (comportamentos) que os objetos desse tipo possuem. Por exemplo, uma classe "Carro" pode ter atributos como cor, modelo e velocidade, e métodos como acelerar e frear. Os objetos são instâncias de classes - eles representam instâncias específicas do modelo definido pela classe.
+
+A programação orientada a objetos oferece muitos benefícios, incluindo reutilização de código, modularidade, extensibilidade, manutenibilidade e uma representação mais próxima do mundo real. Ela é amplamente utilizada em muitas linguagens de programação, como Java, C++, Python, entre outras.
 
   
   *Em construção...*
