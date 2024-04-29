@@ -80,7 +80,7 @@ O nome dado ao processo de criação de um objeto a parti de uma classe existent
 Veja nesse [repositório](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src) como o código [Objetos.java](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src/objetos/Objetos.java) importa a classe [Fatorial.java](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src/classes/Fatorial.java) e instancia um objeto chamdado "f".
 
 #### Modificadores de acesso
-Indicam o nível de acesso aos atributos e métodos de uma classe Java:
+Indicam o nível de acesso aos atributos e métodos de uma classe Java, permintindo encapsular um objeto:
 * **Public**: Qualquer classe tem acesso aos atributos e métodos.
 * **Private**: Apenas a classe proprietária do atributos ou método tem acesso.
 * **Protected**: Classe proprietária e suas sub-classes podem ter acesso aos atributos e métodos.
@@ -92,12 +92,18 @@ Veja nesse [código](https://github.com/marcospontoexe/Java/blob/main/Material%2
 
 [Execute uma aplicação usando Swing e POO](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/02-FatorialSwing/dist).
 
-### O pilares da POO
-A programação orientada a objetos se baseia em quatro pilares fundamentais: encapsulamento, herança, polimorfismo e abstração:
-* **Encapsulamento**: O encapsulamento é o conceito de agrupar dados (variáveis) e métodos (funções) que operam nesses dados em uma única unidade chamada objeto. Isso oculta os detalhes de implementação do objeto, permitindo que apenas as operações essenciais sejam acessadas de fora do objeto.
+### Os pilares da POO
+A programação orientada a objetos se baseia em quatro pilares fundamentais: abstração, encapsulamento, herança e polimorfismo, que permitem construir uma classe mais eficiente com três grandes vantagens:
+1. Tonar mudanças invisíveis.
+2. Facilitar a reutilização de código.
+3. Reduzir os efeitos colaterais.
+
+Veja os pilares da programação orientada a objetos
+* **Abstração**: A abstração é o processo de identificar as características essenciais de um objeto e ignorar os detalhes irrelevantes.
+* **Encapsulamento**: Oculta partes independentes da implementação, permitindo construir partes invisíveis ao mundo exterior através dos modificadores de acesso, criando uma interface bem definida entre o usuário e o código. Isso oculta os detalhes de implementação do objeto, permitindo que apenas as operações essenciais sejam acessadas de fora do objeto.
 * **Herança**: A herança permite que uma classe (ou tipo) de objeto herde características e comportamentos de outra classe. Isso promove a reutilização de código e a criação de hierarquias de classes, onde as classes filhas herdam características da classe pai e podem adicionar suas próprias características exclusivas.
 * **Polimorfismo**: Polimorfismo significa "muitas formas" e refere-se à capacidade de um objeto executar diferentes comportamentos dependendo do contexto. Isso é alcançado através de sobrescrita de métodos (métodos com o mesmo nome em classes diferentes) e sobrecarga de métodos (métodos com o mesmo nome, mas com diferentes parâmetros).
-* **Abstração**: A abstração é o processo de identificar as características essenciais de um objeto e ignorar os detalhes irrelevantes. 
+ 
 
  
 
