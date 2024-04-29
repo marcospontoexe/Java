@@ -104,9 +104,15 @@ A abstração é o processo de identificar as características essenciais de um 
 #### Encapsulamento
 Oculta partes independentes da implementação, permitindo construir partes invisíveis ao mundo exterior através dos modificadores de acesso, criando uma interface bem definida entre o usuário e o código. Isso oculta os detalhes de implementação do objeto, permitindo que apenas as operações essenciais sejam acessadas de fora do objeto.
 
-A **interface** é uma lista de serviços fornecidos por um componente. É o contato com o mundo exterior, que define o que pode ser feito com o objeto de uma classe. [Clique nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/03-encapsulamento/01-Interface/UsandoInterface/src/usandointerface) para ver uma implementação de inteface. **A interface tem apenas métodos abstratos públicos**.
+##### Interface
+A interface é uma lista de serviços fornecidos por um componente. É o contato com o mundo exterior, que define o que pode ser feito com o objeto de uma classe. **A interface tem apenas métodos abstratos públicos**. 
 
 **Métodos abstratos** são aqueles métodos que não são implementados (desenvolvidos) na interface, são apenas previstos. Quando os métodos da interface são implementados em uma classe, eles devem ser encapsulados como *private* ou *protected*, isso é feito no memento em que a classe herda a interface.
+
+[Clique nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/03-encapsulamento/01-Interface/UsandoInterface/src/usandointerface) para ver uma implementação de inteface. Nesse exemplo o código principal "UsandoInterface.java" instancia um objeto ControleRemoto, da classe "ControleRemoto.java". A classe "ControleRemoto.java" implementa os métodos abstratos da classe "Controlador.java".
+
+##### Relacionamento entre classes
+O relacionamento entre classes descreve como as classes se interagem e se relacionam umas com as outras para alcançar um objetivo. Existem vários tipos de relacionamentos entre classes, incluindo associação, agregação, composição, herança e dependência.
 
 #### Herança 
 A herança permite que uma classe (ou tipo) de objeto herde características e comportamentos de outra classe. Isso promove a reutilização de código e a criação de hierarquias de classes, onde as classes filhas herdam características da classe pai e podem adicionar suas próprias características exclusivas.

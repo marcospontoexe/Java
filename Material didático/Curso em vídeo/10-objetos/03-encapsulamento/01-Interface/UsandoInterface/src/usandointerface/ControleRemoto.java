@@ -16,25 +16,26 @@ public class ControleRemoto implements Controlador{     // A classe 'ControleRem
         this.volume = 20;
     }
 
-    public Boolean getLigado() {
+    // Os métodos acessores e modificadores devem ser definidos como privados
+    private Boolean getLigado() {
         return ligado;
     }
 
-    public void setLigado(Boolean ligado) {
+    private void setLigado(Boolean ligado) {
         this.ligado = ligado;
     }
 
-    public int getVolume() {
+    private int getVolume() {
         return volume;
     }
 
-    public void setVolume(int volume) {
+    private void setVolume(int volume) {
         this.volume = volume;
                
     }
 
     // MÉTODOS ABSTRATOS
-    @Override           //override significa 'sobrescrever' o método já definido na classe 'ControleRemoto'
+    @Override           //override significa 'sobrescrever' o método já definido na interface
     public void ligar() {
         this.setLigado(true);
     }
