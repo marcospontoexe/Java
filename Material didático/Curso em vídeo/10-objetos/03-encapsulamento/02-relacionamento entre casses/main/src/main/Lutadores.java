@@ -41,7 +41,7 @@ public class Lutadores {
         return categoria;
     }
 
-    private void setCategoria() {       // a categoria sera definida automaticamente dentro da classe
+    private void setCategoria() {       // a categoria sera definida automaticamente dentro da classe. Bloqueada externamente
         if(this.peso >= 52.2){
             if(this.peso <= 70.3){
                 this.categoria = "Peso pena";

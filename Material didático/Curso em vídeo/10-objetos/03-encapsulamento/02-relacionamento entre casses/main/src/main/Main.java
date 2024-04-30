@@ -14,7 +14,7 @@ public class Main {
         l[5] = new Lutadores("NerdArt", "Portugual", 30, 1.81f, 105.7f, 12, 2, 4);
 
         Luta fight = new Luta();       //cria um objeto do tipo luta 
-        fight.marcarLuta(l[4], l[5]);
+        fight.marcarLuta(l[1], l[1]);
         fight.lutar();
     }
     

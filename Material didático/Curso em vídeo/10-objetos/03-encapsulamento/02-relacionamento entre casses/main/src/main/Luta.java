@@ -9,8 +9,8 @@ import java.util.Random;
  */
 public class Luta {
     // esta classe se relaciona com a classe lutadores, construindo uma agregação entre objetos de classes diferentes
-    private desafiado;        // 'desafiado' é um tipo abstrato (e não primitiva). "desafiado" é uma instnacia da classe Lutadores(), é um objeto da classe Lutadores()
-    private desafiante;
+    private Lutadores desafiado;        // 'desafiado' é um tipo abstrato (e não primitiva int, float, char...). "desafiado" é uma instnacia da classe Lutadores(), é um objeto da classe Lutadores()
+    private Lutadores desafiante;
     private int rounds;
     private boolean aprovada;
     

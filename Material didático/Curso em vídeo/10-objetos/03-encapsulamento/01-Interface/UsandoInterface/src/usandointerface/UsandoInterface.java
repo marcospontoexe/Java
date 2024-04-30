@@ -19,6 +19,9 @@ public class UsandoInterface {
         c.ligar();          //liga
         c.diminuirVol();    //diminui 5
         c.diminuirVol();    //diminui 5
+        c.abrirInfo();
+        c.fecharInfor();
+        
         c.ligarMudo();      //muta o volume (volume = 0)
         c.desligarMudo();   //desliga o modo mute com volume em 50
         c.abrirInfo();

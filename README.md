@@ -107,12 +107,22 @@ Oculta partes independentes da implementação, permitindo construir partes invi
 ##### Interface
 A interface é uma lista de serviços fornecidos por um componente. É o contato com o mundo exterior, que define o que pode ser feito com o objeto de uma classe. **A interface tem apenas métodos abstratos públicos**. 
 
-**Métodos abstratos** são aqueles métodos que não são implementados (desenvolvidos) na interface, são apenas previstos. Quando os métodos da interface são implementados em uma classe, eles devem ser encapsulados como *private* ou *protected*, isso é feito no memento em que a classe herda a interface.
+**Métodos abstratos** são aqueles métodos que não são implementados (desenvolvidos) na interface, são apenas previstos. 
 
 [Clique nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/03-encapsulamento/01-Interface/UsandoInterface/src/usandointerface) para ver uma implementação de inteface. Nesse exemplo o código principal "UsandoInterface.java" instancia um objeto ControleRemoto, da classe "ControleRemoto.java". A classe "ControleRemoto.java" implementa os métodos abstratos da classe "Controlador.java".
 
 ##### Relacionamento entre classes
 O relacionamento entre classes descreve como as classes se interagem e se relacionam umas com as outras para alcançar um objetivo. Existem vários tipos de relacionamentos entre classes, incluindo associação, agregação, composição, herança e dependência.
+
+1. **Associação**: É um relacionamento entre duas classes onde uma classe está relacionada com a outra de alguma forma, mas cada uma delas pode existir independentemente uma da outra. Por exemplo, uma classe "Professor" pode estar associada a uma classe "Disciplina", indicando que um professor leciona uma ou mais disciplinas.
+2. **Agregação**: É um tipo de associação onde uma classe é composta por outras classes, mas as classes componentes podem existir independentemente da classe agregadora. Por exemplo, uma classe "Turma" pode ser composta por várias instâncias da classe "Aluno", mas os alunos podem existir sem a turma.
+
+[Clique nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/03-encapsulamento/02-relacionamento%20entre%20casses/main/src/main) para ver uma agregação entre classes. Na classe "Main.java" é instanciado 5 objetos da classe "Lutadores.java", e um objeto "fight" da classe "Luta.java", o objeto fight recebe dois objetos da classe Lutadores.java para realizar uma operação.
+
+3. **Composição**: É similar à agregação, porém mais forte. Na composição, as classes componentes são partes essenciais da classe agregadora e não podem existir independentemente dela. Por exemplo, um carro é composto por motor, rodas, transmissão, etc. Se o carro for destruído, suas partes também serão.
+4. **Herança**: É um relacionamento onde uma classe (subclasse) herda os atributos e métodos de outra classe (superclasse). Isso permite a reutilização de código e estabelece uma relação "é um" entre as classes. Por exemplo, uma classe "Cachorro" pode herdar de uma classe "Animal", indicando que um cachorro é um tipo de animal.
+5. **Dependência**: É um relacionamento onde uma classe depende de outra para realizar sua funcionalidade, mas não há uma relação estrutural entre elas. Por exemplo, uma classe "CarrinhoDeCompras" pode depender de uma classe "Produto" para adicionar produtos ao carrinho.
+
 
 #### Herança 
 A herança permite que uma classe (ou tipo) de objeto herde características e comportamentos de outra classe. Isso promove a reutilização de código e a criação de hierarquias de classes, onde as classes filhas herdam características da classe pai e podem adicionar suas próprias características exclusivas.
