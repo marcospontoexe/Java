@@ -102,7 +102,7 @@ A programação orientada a objetos se baseia em quatro pilares fundamentais: ab
 A abstração é o processo de identificar as características essenciais de um objeto e ignorar os detalhes irrelevantes.
 
 #### Encapsulamento
-Oculta partes independentes da implementação, permitindo construir partes invisíveis ao mundo exterior através dos modificadores de acesso, criando uma interface bem definida entre o usuário e o código. Isso oculta os detalhes de implementação do objeto, permitindo que apenas as operações essenciais sejam acessadas de fora do objeto.
+Oculta os detalhes de implementação do objeto através dos modificadores de acesso, permitindo que apenas as operações essenciais sejam acessadas de fora do objeto, criando uma interface bem definida entre o usuário e o código.
 
 ##### Interface
 A interface é uma lista de serviços fornecidos por um componente. É o contato com o mundo exterior, que define o que pode ser feito com o objeto de uma classe. **A interface tem apenas métodos abstratos públicos**. 
@@ -117,7 +117,7 @@ O relacionamento entre classes descreve como as classes se interagem e se relaci
 1. **Associação**: É um relacionamento entre duas classes onde uma classe está relacionada com a outra de alguma forma, mas cada uma delas pode existir independentemente uma da outra. Por exemplo, uma classe "Professor" pode estar associada a uma classe "Disciplina", indicando que um professor leciona uma ou mais disciplinas.
 2. **Agregação**: É um tipo de associação onde uma classe é composta por outras classes, mas as classes componentes podem existir independentemente da classe agregadora. Por exemplo, uma classe "Turma" pode ser composta por várias instâncias da classe "Aluno", mas os alunos podem existir sem a turma.
 
-[Clique nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/03-encapsulamento/02-relacionamento%20entre%20casses/main/src/main) para ver uma agregação entre classes. Na classe "Main.java" é instanciado 5 objetos da classe "Lutadores.java", e um objeto "fight" da classe "Luta.java", o objeto fight recebe dois objetos da classe Lutadores.java para realizar uma operação.
+    * [Clique nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/03-encapsulamento/02-relacionamento%20entre%20casses/main/src/main) para ver uma agregação entre classes. Na classe "Main.java" é instanciado 5 objetos da classe "Lutadores.java", e um objeto "fight" da classe "Luta.java", o objeto fight recebe dois objetos da classe Lutadores.java para realizar uma operação.
 
 3. **Composição**: É similar à agregação, porém mais forte. Na composição, as classes componentes são partes essenciais da classe agregadora e não podem existir independentemente dela. Por exemplo, um carro é composto por motor, rodas, transmissão, etc. Se o carro for destruído, suas partes também serão.
 4. **Herança**: É um relacionamento onde uma classe (subclasse) herda os atributos e métodos de outra classe (superclasse). Isso permite a reutilização de código e estabelece uma relação "é um" entre as classes. Por exemplo, uma classe "Cachorro" pode herdar de uma classe "Animal", indicando que um cachorro é um tipo de animal.
@@ -125,7 +125,7 @@ O relacionamento entre classes descreve como as classes se interagem e se relaci
 
 
 #### Herança 
-A herança permite que uma classe (ou tipo) de objeto herde características e comportamentos de outra classe. Isso promove a reutilização de código e a criação de hierarquias de classes, onde as classes filhas herdam características da classe pai e podem adicionar suas próprias características exclusivas.
+A herança permite que uma classe (ou tipo) de objeto herde características e comportamentos de outra classe. Isso promove a reutilização de código e a criação de hierarquias de classes, onde as classes filhas (sub classes) herdam características da classe mãe (classe progenitora, ou super classe) e podem adicionar suas próprias características exclusivas.
 
 #### Polimorfismo 
 Polimorfismo significa "muitas formas" e refere-se à capacidade de um objeto executar diferentes comportamentos dependendo do contexto. Isso é alcançado através de sobrescrita de métodos (métodos com o mesmo nome em classes diferentes) e sobrecarga de métodos (métodos com o mesmo nome, mas com diferentes parâmetros).
