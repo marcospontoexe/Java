@@ -129,8 +129,8 @@ A herança permite que uma classe herde características e comportamentos de out
 
 A supre classe também é conhecida como **classe raiz**, e as sub-classes que não tem  classes filhas são conhecidas como **classe folha**. As classes filhas são descendentes das classes mães, e as classes mães são ancestral das classes filhas.
 
-* Especialização: É a criação de classes mais específicas a partir de classes mais gerais, quando uma classe mais específica (sub-classe) herda atributos e métodos de uma classe mais geral (superclasse).
-* Generalização: Quando duas ou mais classes compartilham características em comum, é uma prática comum criar uma classe mais geral que represente essas características comuns. As sub-classes então herdam essas características da superclasse, o que promove a reutilização de código e a organização hierárquica das classes.
+* **Especialização**: É a criação de classes mais específicas a partir de classes mais gerais, quando uma classe mais específica (sub-classe) herda atributos e métodos de uma classe mais geral (superclasse).
+* **Generalização**: Quando duas ou mais classes compartilham características em comum, é uma prática comum criar uma classe mais geral que represente essas características comuns. As sub-classes então herdam essas características da superclasse, o que promove a reutilização de código e a organização hierárquica das classes.
 
 **Herança de implementação** também conhecida como herança pobre, acontece quando uma classe filha não tem nenhum atributos ou métodos próprio, apenas aqueles atributos e métodos que foram herdados da classe mãe.
 
@@ -157,8 +157,16 @@ Polimorfismo significa "muitas formas" e refere-se à capacidade de um objeto ex
 
 Os dois tipos de polimorfismo mais utilizados são o de **sobreposição** ou override, e o de **sobrecarga**.
 
+#### Sobreposição
+Acontece quando um método é substituido de uma classe mãe em sua classe filha, usando a mesma assinatura.
+
 A assinatura do método depende da quantidade e tipo dos parâmetros
 
 Quando um método abstrato é herdado para uma classe filha, esse método deve ser desenvolvido na classe filha, já que esse método não é  implementado na classe mãe. 
+
+[Veja nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/05-polimorfismo/01-SobrePosicao/src/sobreposicao) como o **polimorfismo de sobreposição** é usado para sobrescrever métodos da classe mãe para que esses métodos tenham um comportamento diferente para cada classe.
+A classe abstrata "Animal.java" é a classe raiz, e possui os atributos "nome", "sexo", "idade", e os **métodos abstratos** "locomover()", "alimentar()" e "emitirSom()". Esses métodos não podem ser desenvolvidos na classe raiz, e obrigatoriamente devem ser desenvolvidos nas classes filhas, sendo que cada classe filha tera um comportamento diferente para esses métodos sobrepostos. Não é obrigatório desenvolver os métodos abstratos nas classes filhas das filhas, caso isso aconteça estas classes herdaram as características dos métodos de sua classe mãe, que nesse caso é a classe filha da classe raiz.
+
+#### Sobrecarga
   
-  *Em construção...*
+*Em construção...*
