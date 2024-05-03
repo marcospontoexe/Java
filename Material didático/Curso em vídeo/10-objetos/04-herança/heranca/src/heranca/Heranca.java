@@ -15,30 +15,30 @@ public class Heranca {
         // programa principal
         
         //criando 4 objestos de classes diferentes cada um
-        Visitante p1 = new Visitante();
-        Aluno p2 = new Aluno();
+        Visitante v1 = new Visitante();
+        Aluno a2 = new Aluno();
         Professor p3 = new Professor();
-        Funcionario p4 = new Funcionario();   
-        Bolsista p5 = new Bolsista();
+        Funcionario f4 = new Funcionario();   
+        Bolsista b5 = new Bolsista();
        
-        p1.setNome("Pedro");
-        p2.setNome("Maria");    //p2 acessa o metodo 'setNome()' da classe mãe (Pessoa())
+        v1.setNome("Pedro");
+        a2.setNome("Maria");    //a2 acessa o metodo 'setNome()' da classe mãe (Pessoa())
         p3.setNome("Joana");//p3 acessa o metodo 'setNome()' da classe mãe (Pessoa())
-        p4.setNome("Henrique");//p4 acessa o metodo 'setNome()' da classe mãe (Pessoa())
-        p5.setNome("Manoeli");
+        f4.setNome("Henrique");//f4 acessa o metodo 'setNome()' da classe mãe (Pessoa())
+        b5.setNome("Manoeli");
         
-        p2.setCurso("Java");
+        a2.setCurso("Java");
         p3.setSalario(3254.98f);
-        p4.setSetor("estoque");
+        f4.setSetor("estoque");
         
-        System.out.println(p1.toString());
-        System.out.println(p2.toString());
+        System.out.println(v1.toString());
+        System.out.println(a2.toString());
         System.out.println(p3.toString());
-        System.out.println(p4.toString());
-        System.out.println(p5.toString());
+        System.out.println(f4.toString());
+        System.out.println(b5.toString());
         
-        p2.pagarMensalidade();
-        p5.pagarMensalidade();  //método sobreposto
+        a2.pagarMensalidade();
+        b5.pagarMensalidade();  //método sobreposto
     }
     
 }

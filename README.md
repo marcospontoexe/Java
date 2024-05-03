@@ -31,10 +31,10 @@ Abaixo os tipos primitivos das variáveis da linguagem Java.
     * [Manipule um vetor](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/08-vetores/02-VetorSwing/dist) de forma prática usando a biblioteca Swing, insirindo e apagando valores em qualquer posição do vetor usando o mouse.
 * Veja como usar [métodos](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/09-m%C3%A9todos%20(fun%C3%A7%C3%B5es)/01-Metodos/src/metodos).
 
-## Programação orientada a objetos (POO)
+# Programação orientada a objetos (POO) no Java
 A programação orientada a objetos tem o objetivo de aproximar o mundo digital do mundo real.  
 
-### A evolução dos métodos de programação
+## A evolução dos métodos de programação
 Quando os computadores começaram a surgir, na década de 40, a programação era feita em **baixo nível**. Quem fornecia as instruções para o cumputador realizar uma ação eram os próprios engenheiros que construiam os computadores, e as instruções eram binárias ou decimais. Esse tipo de programação é chamada linguagem de máquina. Dando sequência aos métodos de programação, surgil a linguagem de alto nível tornando a **programação linear**, os comandos eram mais compreensíveis para humanos, mas ainda sem rotinas internas.
 
 A evolução da programação linear deu origem à **programação estruturada** no final da década de 60, permitindo que pequenos pedações da programação linear  fosse executados fora da ordem natural, dando origem aos sistemas. Com o crescimento dos sistemas a programação estruturada começou a falhar em sua metodologia, e surgiu a **programação modular**, permitindo o desenvolvimento de softwares que envolve dividir um programa em partes menores e independentes chamadas módulos. Cada módulo tem uma responsabilidade bem definida e interage com outros módulos através de interfaces claramente definidas. Essa abordagem promove a reutilização de código, a facilidade de manutenção e a escalabilidade do software. Apliando os conceitos da programação modular, surgiu a **programação orientada a objetos**.
@@ -48,7 +48,7 @@ A evolução da programação linear deu origem à **programação estruturada**
 > resolver um outro problema ou desempenhar
 > outras funções.
 
-### Vantagens da POO
+## Vantagens da POO
 Todo software orientado a objetos é:
 * **confiável**: O isolamento entre as parte gera software seguro. Ao alterar uma parte, nenhuma outra é afetada.
 * **Oportuno**: Ao dividir tudo em partes, várias delas podem ser desenvolvidas em paralelo.
@@ -57,21 +57,21 @@ Todo software orientado a objetos é:
 *  **Reutilizável**: Podemos usar o objeto de um sistema que criamos em outro sistema fulturo.
 *  **Natural**: Mai fácil de entender. Você se preocupa mais na funcionalidade do que nos detalhes de implementação.
 
-### O que é um objeto
+## O que é um objeto
 Objeto é uma coisa material ou abstrata que pode ser percebido pelos sentidos e descrita por meios de suas características, comportamento e estado atual. Em programação os objetos são representados por classes, responsável por classificar características, comportamento e estado atual de um objeto.
 
 Por exemplo, uma objeto "Carro" pode ter atributos como cor, modelo, métodos como acelerar e frear, e o estado atual como ligado ou desligado. 
 
-#### A características
+### As características
 Todo objeto possui pelo menos uma característica que descreve oque esse objeto tem, em programação essas características são chamadas de **atributos**.
 
-#### O comportamento do objeto
+### O comportamento do objeto
 Objetos possuem comportamento responsável em realiza uma ação, em programação esses comportamentos são nomeados de **métodos**.
 
-#### Estado do objeto
+### Estado do objeto
 Em programação o estado atual do objeto é manipulado por métodos acessores e modificadores **getter** e **setter**. O getter diz qual é o estado atual de um determinado atributo do objeto, e o setter altera o estado desse atributo.
 
-### Criando objetos
+## Criando objetos
 Para criar um objeto, antes é necessário planejar o seu molde. A partir desse molde é possível criar inúmeros objetos.
 Esse molde é chamado de **classe** e possui todas as características e comportamento (os atributos e métodos) do objeto a ser criado.
 
@@ -79,39 +79,39 @@ O nome dado ao processo de criação de um objeto a parti de uma classe existent
 
 Veja nesse [repositório](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src) como o código [Objetos.java](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src/objetos/Objetos.java) importa a classe [Fatorial.java](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src/classes/Fatorial.java) e instancia um objeto chamdado "f".
 
-#### Modificadores de acesso
+### Modificadores de acesso
 Indicam o nível de acesso aos atributos e métodos de uma classe Java, permintindo encapsular um objeto:
 * **Public**: Qualquer classe tem acesso aos atributos e métodos.
 * **Private**: Apenas a classe proprietária do atributos ou método tem acesso.
 * **Protected**: Classe proprietária e suas sub-classes podem ter acesso aos atributos e métodos.
 
-#### Método construtor
+### Método construtor
 É um método da classe usado para configurar os atributos e estado de um objeto no momento em que é instanciado, garantindo que o objeto esteja em um estado válido e utilizável. O método construtor tem o mesmo nome da classe em que está definido. O método construtor pode receber parâmetros para criar um objeto ou não.
 
 Veja nesse [código](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src/classes/Fatorial.java) como é definido o nível de acesso dos atributos e métodos, e como o método construtor configura os atributos e estado do objeto no momento do instanciamento.
 
 [Execute uma aplicação usando Swing e POO](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/02-FatorialSwing/dist).
 
-### Os pilares da POO
+## Os pilares da POO
 A programação orientada a objetos se baseia em quatro pilares fundamentais: abstração, encapsulamento, herança e polimorfismo, que permitem construir uma classe mais eficiente com três grandes vantagens:
 1. Tonar mudanças invisíveis.
 2. Facilitar a reutilização de código.
 3. Reduzir os efeitos colaterais.
 
-#### Abstração
+### Abstração
 A abstração é o processo de identificar as características essenciais de um objeto e ignorar os detalhes irrelevantes.
 
-#### Encapsulamento
+### Encapsulamento
 Oculta os detalhes de implementação do objeto através dos modificadores de acesso, permitindo que apenas as operações essenciais sejam acessadas de fora do objeto, criando uma interface bem definida entre o usuário e o código.
 
-##### Interface
+#### Interface
 A interface é uma lista de serviços fornecidos por um componente. É o contato com o mundo exterior, que define o que pode ser feito com o objeto de uma classe. **A interface tem apenas métodos abstratos públicos**. 
 
 **Métodos abstratos** são aqueles métodos que não são implementados (desenvolvidos) na interface, são apenas previstos. 
 
 [Clique nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/03-encapsulamento/01-Interface/UsandoInterface/src/usandointerface) para ver uma implementação de inteface. Nesse exemplo o código principal "UsandoInterface.java" instancia um objeto ControleRemoto, da classe "ControleRemoto.java". A classe "ControleRemoto.java" implementa os métodos abstratos da classe "Controlador.java".
 
-##### Relacionamento entre classes
+#### Relacionamento entre classes
 O relacionamento entre classes descreve como as classes se interagem e se relacionam umas com as outras para alcançar um objetivo. Existem vários tipos de relacionamentos entre classes, incluindo associação, agregação, composição, herança e dependência.
 
 1. **Associação**: É um relacionamento entre duas classes onde uma classe está relacionada com a outra de alguma forma, mas cada uma delas pode existir independentemente uma da outra. Por exemplo, uma classe "Professor" pode estar associada a uma classe "Disciplina", indicando que um professor leciona uma ou mais disciplinas.
@@ -120,20 +120,45 @@ O relacionamento entre classes descreve como as classes se interagem e se relaci
     * [Clique nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/03-encapsulamento/02-relacionamento%20entre%20casses/main/src/main) para ver uma agregação entre classes. Na classe "Main.java" é instanciado 5 objetos da classe "Lutadores.java", e um objeto "fight" da classe "Luta.java", o objeto fight recebe dois objetos da classe Lutadores.java para realizar uma operação.
 
 3. **Composição**: É similar à agregação, porém mais forte. Na composição, as classes componentes são partes essenciais da classe agregadora e não podem existir independentemente dela. Por exemplo, um carro é composto por motor, rodas, transmissão, etc. Se o carro for destruído, suas partes também serão.
-4. **Herança**: É um relacionamento onde uma classe (subclasse) herda os atributos e métodos de outra classe (superclasse). Isso permite a reutilização de código e estabelece uma relação "é um" entre as classes. Por exemplo, uma classe "Cachorro" pode herdar de uma classe "Animal", indicando que um cachorro é um tipo de animal.
+4. **Herança**: É um relacionamento onde uma classe (sub-classe) herda os atributos e métodos de outra classe (superclasse). Isso permite a reutilização de código e estabelece uma relação "é um" entre as classes. Por exemplo, uma classe "Cachorro" pode herdar de uma classe "Animal", indicando que um cachorro é um tipo de animal.
 5. **Dependência**: É um relacionamento onde uma classe depende de outra para realizar sua funcionalidade, mas não há uma relação estrutural entre elas. Por exemplo, uma classe "CarrinhoDeCompras" pode depender de uma classe "Produto" para adicionar produtos ao carrinho.
 
 
-#### Herança 
-A herança permite que uma classe (ou tipo) de objeto herde características e comportamentos de outra classe. Isso promove a reutilização de código e a criação de hierarquias de classes, onde as classes filhas (sub classes) herdam características da classe mãe (classe progenitora, ou super classe) e podem adicionar suas próprias características exclusivas.
+### Herança 
+A herança permite que uma classe herde características e comportamentos de outra classe, dependendo  do da configuração do modificador de acesso. Isso promove a reutilização de código e a criação de hierarquias de classes, onde as classes filhas (sub-classes) herdam características da classe mãe (classe progenitora, ou super classe) e podem adicionar suas próprias características exclusivas.
 
-#### Polimorfismo 
+A supre classe também é conhecida como **classe raiz**, e as sub-classes que não tem  classes filhas são conhecidas como **classe folha**. As classes filhas são descendentes das classes mães, e as classes mães são ancestral das classes filhas.
+
+* Especialização: É a criação de classes mais específicas a partir de classes mais gerais, quando uma classe mais específica (sub-classe) herda atributos e métodos de uma classe mais geral (superclasse).
+* Generalização: Quando duas ou mais classes compartilham características em comum, é uma prática comum criar uma classe mais geral que represente essas características comuns. As sub-classes então herdam essas características da superclasse, o que promove a reutilização de código e a organização hierárquica das classes.
+
+**Herança de implementação** também conhecida como herança pobre, acontece quando uma classe filha não tem nenhum atributos ou métodos próprio, apenas aqueles atributos e métodos que foram herdados da classe mãe.
+
+**Herança para diferença** acontece quando uma classe filha tem seus próprios atributos ou métodos, mais aqueles atributos e métodos herdados da classe mãe.
+
+sobreposição
+
+* **Classe abstrata**: Não pode ser instanciada (não pode gerar objetos), e so pode servir como classe mãe.
+* **Método abstrato**: Declarado mas não pode ser implementado na sua classe mãe, e deve ser sobrescrito na classe filha. Só pode existir dentro de uma Interface ou dentro de uma classe abstrata .
+* **Classe final**: É obrigatóriamente uma classe folha, não pode ter classe filha.
+* **Método final**: Não pode ser sobrescrito pelas suas sub-classes, ou seja não pode gerar uma especialização do método final, é obrigatoriamente herdado. Veja mais sobre **sobrescrição** no tópico de **polimorfismo**.
+
+[Clique aqui](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/04-heran%C3%A7a/heranca/src/heranca) para ver um exemplo onde objetos de várias classes filhas da classe "Pessoa.java" são instanciados na classe "Heranca.java". 
+    * A classe raiz (classe abstrata) "Pessoa.java" com os atributos "nome", "idade", "sexo" e um método final chamado "fazerAniversario()" que não pode ser sobrescrito nas classes filhas.
+    * A classe "Aluno.java" herda os atributos e métodos da classe raiz através da herança para diferença, já que possui seus próprios atributos "matricula", "curso" e o método "pagarMensalidade()".
+    * A classe "Professor.java", também implementada com herança para diferença, possui os atributos "especialidade", "salario" e o atributo "receberAumento()".
+    * A classe "Visitante.java" é implementada através da herança de implementação, pois não tem nenhum atributos ou métodos além daqueles herdados pela classe mãe.
+    * A classe "Tecnico.java" é uma especialização da classe "Aluno.java", ou seja Tecnico é a classe filha de Aluno, e possui o atributo "registroProfissional" e o método "praticar()". A classe Tecnico é uma classe final, isso significa que não é possível criar classes filhas da classe Tecnico
+    * A classe "Bolsista.java" também é uma especialização da classe "Aluno.java" e também é uma classe final. Possui o atributo "bolsa", um método "renovarBolsa()", e mais um método "pagarMensalidade()" que é sobrescrito da classe Aluno. 
+
+
+### Polimorfismo 
 Polimorfismo significa "muitas formas" e refere-se à capacidade de um objeto executar diferentes comportamentos dependendo do contexto. Isso é alcançado através de sobrescrita de métodos (métodos com o mesmo nome em classes diferentes) e sobrecarga de métodos (métodos com o mesmo nome, mas com diferentes parâmetros).
- 
 
- 
+Os dois tipos de polimorfismo mais utilizados são o de **sobreposição** ou override, e o de **sobrecarga**.
 
+A assinatura do método depende da quantidade e tipo dos parâmetros
 
-
+Quando um método abstrato é herdado para uma classe filha, esse método deve ser desenvolvido na classe filha, já que esse método não é  implementado na classe mãe. 
   
   *Em construção...*
