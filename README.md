@@ -82,11 +82,16 @@ Veja nesse [repositório](https://github.com/marcospontoexe/Java/tree/main/Mater
 ### Modificadores de acesso
 Indicam o nível de acesso aos atributos e métodos de uma classe Java, permintindo encapsular um objeto:
 * **Public**: Qualquer classe tem acesso aos atributos e métodos.
-* **Private**: Apenas a classe proprietária do atributos ou método tem acesso.
-* **Protected**: Classe proprietária e suas sub-classes podem ter acesso aos atributos e métodos.
+* **Protected**: Classe proprietária e suas sub-classes podem ter acesso aos atributos e métodos. Quando um atributo ou método é herdade de uma classe, onde este era protected, ele pode se tornar public na classe filha.
+* **Private**: Apenas a classe proprietária do atributos ou método tem acesso a estes. Quando um atributo ou método é herdade de uma classe, onde este era private, ele pode se tornar protected ou public na classe filha. 
 
 ### Método construtor
-É um método da classe usado para configurar os atributos e estado de um objeto no momento em que é instanciado, garantindo que o objeto esteja em um estado válido e utilizável. O método construtor tem o mesmo nome da classe em que está definido. O método construtor pode receber parâmetros para criar um objeto ou não.
+É um método da classe usado para configurar os atributos e estado de um objeto no momento em que é instanciado, garantindo que o objeto esteja em um estado válido e utilizável. O método construtor tem o mesmo nome da classe em que está definido e pode, ou não, receber parâmetros para criar um objeto .
+
+Caso não seja implementado um construtor em uma classe, o compilador fornece um construtor padrão sem parâmetros em qualquer classe que não inclui explicitamente um construtor, e os atributos seram inicializados da seguinte forma.
+* Atributos numéricos receberam valor zero.
+* Atributos alfanuméricos receberam valor vazio.
+* Atributos lógicos receberam valor falso.
 
 Veja nesse [código](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src/classes/Fatorial.java) como é definido o nível de acesso dos atributos e métodos, e como o método construtor configura os atributos e estado do objeto no momento do instanciamento.
 
@@ -101,7 +106,7 @@ A programação orientada a objetos se baseia em quatro pilares fundamentais: ab
 ### Abstração
 A abstração é o processo de identificar as características essenciais de um objeto e ignorar os detalhes irrelevantes.
 
-### Encapsulamento
+#### Encapsulamento
 Oculta os detalhes de implementação do objeto através dos modificadores de acesso, permitindo que apenas as operações essenciais sejam acessadas de fora do objeto, criando uma interface bem definida entre o usuário e o código.
 
 #### Interface
@@ -151,22 +156,25 @@ sobreposição
     * A classe "Tecnico.java" é uma especialização da classe "Aluno.java", ou seja Tecnico é a classe filha de Aluno, e possui o atributo "registroProfissional" e o método "praticar()". A classe Tecnico é uma classe final, isso significa que não é possível criar classes filhas da classe Tecnico
     * A classe "Bolsista.java" também é uma especialização da classe "Aluno.java" e também é uma classe final. Possui o atributo "bolsa", um método "renovarBolsa()", e mais um método "pagarMensalidade()" que é sobrescrito da classe Aluno. 
 
-
 ### Polimorfismo 
-Polimorfismo significa "muitas formas" e refere-se à capacidade de um objeto executar diferentes comportamentos dependendo do contexto. Isso é alcançado através de sobrescrita de métodos (métodos com o mesmo nome em classes diferentes) e sobrecarga de métodos (métodos com o mesmo nome, mas com diferentes parâmetros).
+Polimorfismo significa "muitas formas" e refere-se à capacidade de um objeto executar diferentes comportamentos dependendo do contexto. Os mais usados são o polimorfismo de **sobreposição** (ou override) e de **sobrecarga** de métodos. Existem outros tipos de polimorfismos, polimorfismo de inclusão e o paramétrico.
 
-Os dois tipos de polimorfismo mais utilizados são o de **sobreposição** ou override, e o de **sobrecarga**.
+A **assinatura do método** depende da quantidade e tipo dos parâmetros de entrada. Quando os métodos tem a mesma quantidade e tipos de parâmetros de entrada, eles tem a mesma assinatura.
 
 #### Sobreposição
-Acontece quando um método é substituido de uma classe mãe em sua classe filha, usando a mesma assinatura.
-
-A assinatura do método depende da quantidade e tipo dos parâmetros
+Acontece quando um método é substituido de uma classe mãe em uma classe filha, possui o mesmo nome e usa a mesma assinatura. O método sobrescrito não fica na mesma classe, ele é herdado de outra classe.
 
 Quando um método abstrato é herdado para uma classe filha, esse método deve ser desenvolvido na classe filha, já que esse método não é  implementado na classe mãe. 
 
 [Veja nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/05-polimorfismo/01-SobrePosicao/src/sobreposicao) como o **polimorfismo de sobreposição** é usado para sobrescrever métodos da classe mãe para que esses métodos tenham um comportamento diferente para cada classe.
-A classe abstrata "Animal.java" é a classe raiz, e possui os atributos "nome", "sexo", "idade", e os **métodos abstratos** "locomover()", "alimentar()" e "emitirSom()". Esses métodos não podem ser desenvolvidos na classe raiz, e obrigatoriamente devem ser desenvolvidos nas classes filhas, sendo que cada classe filha tera um comportamento diferente para esses métodos sobrepostos. Não é obrigatório desenvolver os métodos abstratos nas classes filhas das filhas, caso isso aconteça estas classes herdaram as características dos métodos de sua classe mãe, que nesse caso é a classe filha da classe raiz.
+A classe abstrata "Animal.java" é a classe raiz, e possui os atributos "nome", "sexo", "idade", e os **métodos abstratos** "locomover()", "alimentar()" e "emitirSom()". Esses métodos não podem ser desenvolvidos na classe raiz, e obrigatoriamente devem ser desenvolvidos nas classes filhas, sendo que cada classe filha tera um comportamento diferente para esses métodos sobrepostos. Não é obrigatório desenvolver os métodos abstratos nas classes filhas das filhas, caso os métodos abstratos não seja desenvolvidos, estas classes herdaram as características dos métodos de sua classe mãe, que nesse caso é a classe filha da classe raiz.
 
 #### Sobrecarga
+O polimorfismo de sobrecarga acontece quando os métodos possuem o mesmo nome, assinatura diferente, e estão na mesma classe. 
+
+[Veja nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/05-polimorfismo/02-SobreCarga/src/sobrecarga) a implementação de métodos usando o polimorfismo de sobrecarga.
+Na casse "SobreCarga.java" é instanciado um objeto chamado "c", que pertence à classe "Cachorro.java". Na classe Cachorro existem quatro métodos chamados "reagir" porem todos tem uma assinatura diferente.
   
+## Agregação entre classes
+
 *Em construção...*
