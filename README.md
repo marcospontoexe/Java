@@ -176,5 +176,7 @@ O polimorfismo de sobrecarga acontece quando os métodos possuem o mesmo nome, a
 Na casse "SobreCarga.java" é instanciado um objeto chamado "c", que pertence à classe "Cachorro.java". Na classe Cachorro existem quatro métodos chamados "reagir" porem todos tem uma assinatura diferente.
   
 ## Agregação entre classes
+A classe "Video.java" implementa os métodos abstratos "play", "pause", "like", da interface "AcoesVideo.java".
+
 
 *Em construção...*
