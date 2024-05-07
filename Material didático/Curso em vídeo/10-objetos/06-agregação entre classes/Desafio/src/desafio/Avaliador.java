@@ -7,7 +7,7 @@ public class Avaliador extends Pessoa{
     private int totAssistindo;    
     //construtor
     public Avaliador(String login, String nome, int idade, String sexo) {
-        super(nome, idade, sexo);   //passa os atributos do construtor para a classe mãe (Pessoa(), pois tab tem um construtos)
+        super(nome, idade, sexo);   //passa os atributos do construtor para a classe mãe (Pessoa(), pois a super classe tb tem um construtor)
         this.login = login;
         this.totAssistindo = 0;
     }        

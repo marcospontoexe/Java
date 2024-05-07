@@ -176,7 +176,9 @@ O polimorfismo de sobrecarga acontece quando os métodos possuem o mesmo nome, a
 Na casse "SobreCarga.java" é instanciado um objeto chamado "c", que pertence à classe "Cachorro.java". Na classe Cachorro existem quatro métodos chamados "reagir" porem todos tem uma assinatura diferente.
   
 ## Agregação entre classes
-A classe "Video.java" implementa os métodos abstratos "play", "pause", "like", da interface "AcoesVideo.java".
+[Nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/06-agrega%C3%A7%C3%A3o%20entre%20classes/Desafio/src/desafio) a classe de agregação (Vizualizacao.java) tem a função de relacionar quem está assintindo, e o que está sendo assistido. "Quem está assistindo" é um objeto da classe "Avaliador.java" e representa uma pessoa, e "o que está sendo assistido" é um objeto da classe vídeo e representa um vídeo. Ao instanciar um objeto da classe de agregação, o atributo "total de vídeos assitido" da classe Avaliador é incrementado, significando que a pessoa assitiu mais um vídeo, alem disso, o atributo "Views" da classe vídeo também é incrementado, significando que aquele vídeo recebeu mais uma vizualização.
+* A classe "Video.java" implementa os métodos abstratos "play", "pause", "like", da interface "AcoesVideo.java". 
+* A classe "Avaliador.java" é uma classe filha da classe abstrata "Pessoa.java". O construtor da classe filha chama a classe mãe com os atributos do construtor da classe mãe.
+* A classe "Vizualizacao.java" instancia um obejeto chamado "espectador" para fazer uma agregação entre as classes Vizualizacao e Avaliador. E também um objeto chamado "filme" para fazer uma agregação entre as classes Vizualizacao e Video. 
 
 
-*Em construção...*

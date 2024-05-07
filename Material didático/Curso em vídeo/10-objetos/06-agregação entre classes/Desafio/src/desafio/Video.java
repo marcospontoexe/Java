@@ -26,15 +26,7 @@ public class Video implements AcoesVideo{
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
-    }
-
-    public int getAvaliacao() {
-        return avaliacao;
-    }
-
-    public void setAvaliacao(int avaliacao) {
-        this.avaliacao = avaliacao;
-    }
+    }   
 
     public int getViews() {
         return views;
@@ -60,6 +52,15 @@ public class Video implements AcoesVideo{
         this.reproduzindo = reproduzindo;
     }
     
+    public int getAvaliacao() {
+        return avaliacao;
+    }
+
+    public void setAvaliacao(int avaliacao) {
+        int novaAvaliacao = 0;
+        novaAvaliacao = (int) ((this.avaliacao + avaliacao) / this.views);
+        this.avaliacao = novaAvaliacao;
+    }
     
     //sobreposição de métodos (polimorfismo)
     @Override
