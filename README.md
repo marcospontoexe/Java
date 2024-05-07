@@ -103,10 +103,10 @@ A programação orientada a objetos se baseia em quatro pilares fundamentais: ab
 2. Facilitar a reutilização de código.
 3. Reduzir os efeitos colaterais.
 
-### Abstração
+### 1° pilar: Abstração
 A abstração é o processo de identificar as características essenciais de um objeto e ignorar os detalhes irrelevantes.
 
-#### Encapsulamento
+### 2° pilar: Encapsulamento
 Oculta os detalhes de implementação do objeto através dos modificadores de acesso, permitindo que apenas as operações essenciais sejam acessadas de fora do objeto, criando uma interface bem definida entre o usuário e o código.
 
 #### Interface
@@ -129,7 +129,7 @@ O relacionamento entre classes descreve como as classes se interagem e se relaci
 5. **Dependência**: É um relacionamento onde uma classe depende de outra para realizar sua funcionalidade, mas não há uma relação estrutural entre elas. Por exemplo, uma classe "CarrinhoDeCompras" pode depender de uma classe "Produto" para adicionar produtos ao carrinho.
 
 
-### Herança 
+### 3° pilar: Herança 
 A herança permite que uma classe herde características e comportamentos de outra classe, dependendo  do da configuração do modificador de acesso. Isso promove a reutilização de código e a criação de hierarquias de classes, onde as classes filhas (sub-classes) herdam características da classe mãe (classe progenitora, ou super classe) e podem adicionar suas próprias características exclusivas.
 
 A supre classe também é conhecida como **classe raiz**, e as sub-classes que não tem  classes filhas são conhecidas como **classe folha**. As classes filhas são descendentes das classes mães, e as classes mães são ancestral das classes filhas.
@@ -156,7 +156,7 @@ sobreposição
     * A classe "Tecnico.java" é uma especialização da classe "Aluno.java", ou seja Tecnico é a classe filha de Aluno, e possui o atributo "registroProfissional" e o método "praticar()". A classe Tecnico é uma classe final, isso significa que não é possível criar classes filhas da classe Tecnico
     * A classe "Bolsista.java" também é uma especialização da classe "Aluno.java" e também é uma classe final. Possui o atributo "bolsa", um método "renovarBolsa()", e mais um método "pagarMensalidade()" que é sobrescrito da classe Aluno. 
 
-### Polimorfismo 
+### 4° pilar: Polimorfismo 
 Polimorfismo significa "muitas formas" e refere-se à capacidade de um objeto executar diferentes comportamentos dependendo do contexto. Os mais usados são o polimorfismo de **sobreposição** (ou override) e de **sobrecarga** de métodos. Existem outros tipos de polimorfismos, polimorfismo de inclusão e o paramétrico.
 
 A **assinatura do método** depende da quantidade e tipo dos parâmetros de entrada. Quando os métodos tem a mesma quantidade e tipos de parâmetros de entrada, eles tem a mesma assinatura.
