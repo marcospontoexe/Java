@@ -141,8 +141,6 @@ A supre classe também é conhecida como **classe raiz**, e as sub-classes que n
 
 **Herança para diferença** acontece quando uma classe filha tem seus próprios atributos ou métodos, mais aqueles atributos e métodos herdados da classe mãe.
 
-sobreposição
-
 * **Classe abstrata**: Não pode ser instanciada (não pode gerar objetos), e so pode servir como classe mãe.
 * **Método abstrato**: Declarado mas não pode ser implementado na sua classe mãe, e deve ser sobrescrito na classe filha. Só pode existir dentro de uma Interface ou dentro de uma classe abstrata .
 * **Classe final**: É obrigatóriamente uma classe folha, não pode ter classe filha.
