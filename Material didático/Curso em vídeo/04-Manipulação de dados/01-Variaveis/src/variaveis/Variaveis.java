@@ -37,6 +37,11 @@ public class Variaveis {
         System.out.println("Digite a nota do aluno!");
         float nota = teclado.nextFloat();               //recebe um float do teclado. No lugar do ponto a vírgula é o separador decimal
         System.out.printf("O aluno %s tirou nota %.1f \n", aluno, nota);
+
+        System.out.println("Digite o peso do aluno!");
+        double peso =  teclado.nextDouble();
+        System.out.println("Digite a idade do aluno!");
+        int idade =  teclado.nextInt();
         
         
         //----------------CONVERSÃO DE VARIÁVEL---------
