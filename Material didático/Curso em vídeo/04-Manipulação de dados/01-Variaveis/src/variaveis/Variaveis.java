@@ -31,6 +31,7 @@ public class Variaveis {
          System.out.format("Altura: %.2f\n", gasolina);
         
         //-------------MANIPULANDO ENTRADA DE DADOS---------------------
+        Locale.setDefault(new Locale("pt", "BR"));     //define as configurações regionais deste código para pt-BR (português do Brasil), troca o . pela ,
         Scanner teclado = new Scanner(System.in);    // para ativar a classe Scaner() é preciso criar um objeto.
         System.out.println("Digite o nome do aluno!");
         String aluno = teclado.nextLine();              //recebe uma string de teclado
