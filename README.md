@@ -11,7 +11,16 @@ Este repositório mostra alguns exemplos de uso da linguagem Java e sua sintaxe.
     * Veja o exemplo ["OlaMundo.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/05-JavaFX/OlaMundo/dist).
 * Java é uma linguagem **fortemente tipada**, veja como usar [entradas e saidas de dados e manipular variáveis](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/01-Variaveis/src/variaveis/Variaveis.java).
 Abaixo os tipos primitivos das variáveis da linguagem Java.
-![Tipos de variáveis](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/Imagens/vari%C3%A1veis.png).
+![Tipos de variáveis](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/Imagens/vari%C3%A1veis.png)
+
+| Código  | Regra                                                      | Exemplo                          | Observações                                                                                     |
+|---------|-------------------------------------------------------------|----------------------------------|-------------------------------------------------------------------------------------------------|
+| float   | Números float terminam com f ou F.                          | `float a = 7.1f;`  `float b = 3.1415F;` | Um número com ponto flutuante e sem letra no final é `double` por padrão no Java.               |
+|         |                                                             |                                  | Apenas para identificação de tipo, maiúsculas e minúsculas são equivalentes.                    |
+| double  | Números double terminam com d ou D.                         | `double c = 7.1d;`  `double d = 3.1415D;` |                                                                                                 |
+| long    | Números long terminam com l ou L.                           | `long e = 12l;`  `long f = 25L;` |                                                                                                 |
+| int     | Para representar números em diferentes sistemas de numeração. | `int decVal = 26;`  `int hexVal = 0x1A;`  `int binVal = 0b11010;` | `26` em decimal, hexadecimal, e binário.                                                        |
+
     * Veja um exemplo de aplicação gráfica usando a **biblioteca Swing** para [somar](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/02-SomaSwing/dist) dois valores inteiros, e outro para [calcular a idade](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/03-CalculaIdade/dist) a partir da data e hora atual do sistema operacional.
     * Como [comparar Strings](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/04-IgualdadeString/src/igualdadestring/IgualdadeString.java).
 * Como trabalhar com **operadores** usando a biblioteca [Math](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/01-BibMath/src/bibmath/BibMath.java).
