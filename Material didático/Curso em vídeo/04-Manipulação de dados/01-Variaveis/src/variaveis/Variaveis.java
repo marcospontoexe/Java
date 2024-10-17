@@ -43,6 +43,8 @@ public class Variaveis {
         double peso =  teclado.nextDouble();
         System.out.println("Digite a idade do aluno!");
         int idade =  teclado.nextInt();
+
+        scanner.close(); //fechamos o objeto Scanner para liberar os recursos utilizados para a leitura de dados.
         
         
         //----------------CONVERSÃO DE VARIÁVEL---------
