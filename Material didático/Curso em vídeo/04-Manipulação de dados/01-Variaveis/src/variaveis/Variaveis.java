@@ -23,10 +23,12 @@ public class Variaveis {
         
                 
         //-------------------MANIPULANDO SAÍDA DE DADOS--------------------------
+        System.out.print("\nsua idade eh: " + idade + "anos."\n");        // O caracter especial \n pula uma linha
         System.out.println("sua idade eh: " + idade + "anos.");                //imprime na tela e pula uma linha
         //impressão formatada 
         System.out.printf("seu salário eh: %.2f R$!\n", gasolina);      //usar \n para pular linha
         System.out.printf("Seu nome eh: %s e pesa %.1f\n", nome, peso);
+         System.out.format("Altura: %.2f\n", gasolina);
         
         //-------------MANIPULANDO ENTRADA DE DADOS---------------------
         Scanner teclado = new Scanner(System.in);    // para ativar a classe Scaner() é preciso criar um objeto.
