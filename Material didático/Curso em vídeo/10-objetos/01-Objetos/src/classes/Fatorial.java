@@ -10,9 +10,9 @@ package classes;
  */
 public class Fatorial {
     //DECLARAÇÃO DOS ATRIBUTOS
-    private int num = 0;        //modificador de visibilidade: public(-), private(+), protected(#)
-    private int fat = 1;        //Indica o níveis de acesso aos atributos e métodos de uma classe
-    private String formula =""; //private torna o acesso dos atributos disponíveis apenas dentro da classe pertecentes
+    private int num = 0;       
+    private int fat = 1;       
+    private String formula =""; 
     /* MODIFICADORES DE ACESSO
     Indica o níveis de acesso aos atributos e métodos de uma classe;
     public(-): Qualquer classe tem acesso aos atributos e métodos
