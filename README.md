@@ -97,6 +97,8 @@ Indicam o nível de acesso aos atributos e métodos de uma classe Java, perminti
 ### Método construtor
 É um método da classe usado para configurar os atributos e estado de um objeto no momento em que é instanciado, garantindo que o objeto esteja em um estado válido e utilizável. O método construtor tem o mesmo nome da classe em que está definido e pode, ou não, receber parâmetros para criar um objeto .
 
+A palavra-chave **this** em Java é usada como uma referência à instância atual de um objeto. Ela é especialmente útil quando precisamos distinguir entre os parâmetros da classe e os parametros de entrada do método construtor, que geralmente têm os mesmos nomes. 
+ 
 Caso não seja implementado um construtor em uma classe, o compilador fornece um construtor padrão sem parâmetros em qualquer classe que não inclui explicitamente um construtor, e os atributos seram inicializados da seguinte forma.
 * Atributos numéricos receberam valor zero.
 * Atributos alfanuméricos receberam valor vazio (Null para os demais).
