@@ -108,6 +108,9 @@ Veja nesse [código](https://github.com/marcospontoexe/Java/blob/main/Material%2
 
 [Execute uma aplicação usando Swing e POO](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/02-FatorialSwing/dist).
 
+### Static
+Ou seja, não importa o que foi calculado antes, o resultado dessas operações depende apenas dos valores atuais que você passa para elas
+
 ## Os pilares da POO
 A programação orientada a objetos se baseia em quatro pilares fundamentais: abstração, encapsulamento, herança e polimorfismo, que permitem construir uma classe mais eficiente com três grandes vantagens:
 1. Tonar mudanças invisíveis.
