@@ -99,7 +99,7 @@ Indicam o nível de acesso aos atributos e métodos de uma classe Java, perminti
 
 Caso não seja implementado um construtor em uma classe, o compilador fornece um construtor padrão sem parâmetros em qualquer classe que não inclui explicitamente um construtor, e os atributos seram inicializados da seguinte forma.
 * Atributos numéricos receberam valor zero.
-* Atributos alfanuméricos receberam valor vazio.
+* Atributos alfanuméricos receberam valor vazio (Null para os demais).
 * Atributos lógicos receberam valor falso.
 
 Veja nesse [código](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src/classes/Fatorial.java) como é definido o nível de acesso dos atributos e métodos, e como o método construtor configura os atributos e estado do objeto no momento do instanciamento.
