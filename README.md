@@ -109,7 +109,7 @@ Veja nesse [código](https://github.com/marcospontoexe/Java/blob/main/Material%2
 [Execute uma aplicação usando Swing e POO](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/02-FatorialSwing/dist).
 
 ### Static
-A palavra-chave **static** significa que o método pertence à classe em si, não à uma instância específica (ou objeto) da classe. Em outras palavras, não precisamos criar um objeto para usar os métodos státicos– podemos simplesmente chamá-los diretamente na classe.
+A palavra-chave **static** significa que o método pertence à classe em si, não à uma instância específica (ou objeto) da classe. Em outras palavras, não precisamos criar um objeto para usar os métodos státicos– podemos simplesmente chamá-los diretamente na classe, por exemplo; ``NomeClasse.metodoEstatico()``;
 
 ## Os pilares da POO
 A programação orientada a objetos se baseia em quatro pilares fundamentais: abstração, encapsulamento, herança e polimorfismo, que permitem construir uma classe mais eficiente com três grandes vantagens:
