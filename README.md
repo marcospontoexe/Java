@@ -113,6 +113,10 @@ Em Java, quando usamos **static**, estamos dizendo que aquele atributo ou métod
 A palavra-chave **static** significa que o **método** pertence à classe em si, não à uma instância específica (ou objeto) da classe. Em outras palavras, não precisamos criar um objeto para usar os métodos státicos– podemos simplesmente chamá-los diretamente na classe, por exemplo; ``NomeClasse.metodoEstatico()``;
 Quando declaramos um **atributo** como **static**, ele é compartilhado por todas as instâncias da classe: o atributo é mantido na mesma área de memória para todas as instâncias da classe. Isso significa que se um objeto da classe alterar o valor do atributo, todos os demais objetos da mesma classe terão o mesmo valor alterado no seu atributo.
 
+### final static
+Usamos **final static** quando temos uma constante (atributo) que todos os objetos da classe compartilham e que não deve ser alterada.
+Final static define uma constante que todos os objestos da classe compartilham. A palavra-chave final significa que o valor do atributo não pode ser alterado após ser definido, e static significa que o atributo pertence à classe, e não a um objeto específico dessa classe. Portanto, qualquer objeto que criarmos terá acesso a esse mesmo valor.
+
 ## Os pilares da POO
 A programação orientada a objetos se baseia em quatro pilares fundamentais: abstração, encapsulamento, herança e polimorfismo, que permitem construir uma classe mais eficiente com três grandes vantagens:
 1. Tonar mudanças invisíveis.
