@@ -110,8 +110,8 @@ Veja nesse [código](https://github.com/marcospontoexe/Java/blob/main/Material%2
 
 ### Static
 Em Java, quando usamos **static**, estamos dizendo que aquele atributo ou método pertence à classe toda, e não somente a um objeto único em específico a partir dela.
-A palavra-chave **static** significa que o método pertence à classe em si, não à uma instância específica (ou objeto) da classe. Em outras palavras, não precisamos criar um objeto para usar os métodos státicos– podemos simplesmente chamá-los diretamente na classe, por exemplo; ``NomeClasse.metodoEstatico()``;
-
+A palavra-chave **static** significa que o **método** pertence à classe em si, não à uma instância específica (ou objeto) da classe. Em outras palavras, não precisamos criar um objeto para usar os métodos státicos– podemos simplesmente chamá-los diretamente na classe, por exemplo; ``NomeClasse.metodoEstatico()``;
+Quando declaramos um **atributo** como **static**, ele é compartilhado por todas as instâncias da classe: o atributo é mantido na mesma área de memória para todas as instâncias da classe. Isso significa que se um objeto da classe alterar o valor do atributo, todos os demais objetos da mesma classe terão o mesmo valor alterado no seu atributo.
 
 ## Os pilares da POO
 A programação orientada a objetos se baseia em quatro pilares fundamentais: abstração, encapsulamento, herança e polimorfismo, que permitem construir uma classe mais eficiente com três grandes vantagens:
