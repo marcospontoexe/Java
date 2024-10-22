@@ -166,7 +166,8 @@ A supre classe também é conhecida como **classe raiz**, e as sub-classes que n
 * **Classe final**: É obrigatóriamente uma classe folha, não pode ter classe filha.
 * **Método final**: Não pode ser sobrescrito pelas suas sub-classes, ou seja não pode gerar uma especialização do método final, é obrigatoriamente herdado. Veja mais sobre **sobrescrição** no tópico de **polimorfismo**.
 
-[Clique aqui](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/04-heran%C3%A7a/heranca/src/heranca) para ver um exemplo onde objetos de várias classes filhas da classe "Pessoa.java" são instanciados na classe "Heranca.java". 
+[Clique aqui](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/04-heran%C3%A7a/heranca/src/heranca) para ver um exemplo onde objetos de várias classes filhas da classe "Pessoa.java" são instanciados na classe "Heranca.java":
+
     * A classe raiz (classe abstrata) "Pessoa.java" com os atributos "nome", "idade", "sexo" e um método final chamado "fazerAniversario()" que não pode ser sobrescrito nas classes filhas.
     * A classe "Aluno.java" herda os atributos e métodos da classe raiz através da herança para diferença, já que possui seus próprios atributos "matricula", "curso" e o método "pagarMensalidade()".
     * A classe "Professor.java", também implementada com herança para diferença, possui os atributos "especialidade", "salario" e o atributo "receberAumento()".
