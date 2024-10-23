@@ -1,5 +1,5 @@
 package variaveis;
-
+import java.util.Locale;
 import java.util.Scanner;   // para manipular entrada de dados
 
 public class Variaveis {
