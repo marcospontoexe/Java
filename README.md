@@ -98,7 +98,7 @@ Indicam o nível de acesso aos atributos e métodos de uma classe Java, perminti
 |------------------|---------------------|--------|------------|--------|-------|
 | Sem modificador (default) | -                   | ✔      | ✖          | ✔      | ✖     |
 | public           | public              | ✔      | ✔          | ✔      | ✔     |
-| protected *      | protected           | ✔      | ✔          | ✔      | ✖     |
+| protected      | protected           | ✔      | ✔          | ✔      | ✖     |
 | private          | private             | ✔      | ✖          | ✖      | ✖     |
 
 
