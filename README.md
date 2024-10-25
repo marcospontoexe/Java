@@ -90,9 +90,62 @@ Veja nesse [repositório](https://github.com/marcospontoexe/Java/tree/main/Mater
 
 ### Modificadores de acesso
 Indicam o nível de acesso aos atributos e métodos de uma classe Java, permintindo encapsular um objeto:
-* **Public**: Qualquer classe tem acesso aos atributos e métodos.
-* **Protected**: Classe proprietária e suas sub-classes podem ter acesso aos atributos e métodos. Quando um atributo ou método é herdade de uma classe, onde este era protected, ele pode se tornar public na classe filha.
+* **Public**:Indica que a classe, atributo ou método é visível por qualquer outra classe, em qualquer pacote.
+* **Protected**: Classe proprietária e suas sub-classes podem ter acesso aos atributos e métodos, desde que estejam no mesmo pacote. Quando um atributo ou método é herdado de uma classe, onde este era protected, ele pode se tornar public na classe filha.
 * **Private**: Apenas a classe proprietária do atributos ou método tem acesso a estes. Quando um atributo ou método é herdade de uma classe, onde este era private, ele pode se tornar protected ou public na classe filha. 
+
+Visibilidade
+
+Modificador em Java
+
+Class
+
+Subclasse*
+
+Package
+
+Mundo
+
+Sem modificador (default)
+
+✔
+
+✖
+
+✔
+
+✖
+
+public
+
+✔
+
+✔
+
+✔
+
+✔
+
+protected *
+
+✔
+
+✔
+
+✔
+
+✖
+
+private
+
+✔
+
+✖
+
+✖
+
+✖
+
 
 ### Método construtor
 É um método da classe usado para configurar os atributos e estado de um objeto no momento em que é instanciado, garantindo que o objeto esteja em um estado válido e utilizável. O método construtor tem o mesmo nome da classe em que está definido e pode, ou não, receber parâmetros para criar um objeto .
