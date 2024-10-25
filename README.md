@@ -101,7 +101,7 @@ Indicam o nível de acesso aos atributos e métodos de uma classe Java, perminti
 | protected      | protected           | ✔      | ✔          | ✔      | ✖     |
 | private          | private             | ✔      | ✖          | ✖      | ✖     |
 
-
+O início modificador que pode ser usado em uma classa e o **public** ou **default**.
 
 ### Método construtor
 É um método da classe usado para configurar os atributos e estado de um objeto no momento em que é instanciado, garantindo que o objeto esteja em um estado válido e utilizável. O método construtor tem o mesmo nome da classe em que está definido e pode, ou não, receber parâmetros para criar um objeto .
