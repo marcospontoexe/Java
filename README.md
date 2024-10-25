@@ -94,57 +94,13 @@ Indicam o nível de acesso aos atributos e métodos de uma classe Java, perminti
 * **Protected**: Classe proprietária e suas sub-classes podem ter acesso aos atributos e métodos, desde que estejam no mesmo pacote. Quando um atributo ou método é herdado de uma classe, onde este era protected, ele pode se tornar public na classe filha.
 * **Private**: Apenas a classe proprietária do atributos ou método tem acesso a estes. Quando um atributo ou método é herdade de uma classe, onde este era private, ele pode se tornar protected ou public na classe filha. 
 
-Visibilidade
+| Visibilidade     | Modificador de acesso | Classe | Subclasse | Pacote | Mundo |
+|------------------|---------------------|--------|------------|--------|-------|
+| Sem modificador (default) | -                   | ✔      | ✖          | ✔      | ✖     |
+| public           | public              | ✔      | ✔          | ✔      | ✔     |
+| protected *      | protected           | ✔      | ✔          | ✔      | ✖     |
+| private          | private             | ✔      | ✖          | ✖      | ✖     |
 
-Modificador em Java
-
-Class
-
-Subclasse*
-
-Package
-
-Mundo
-
-Sem modificador (default)
-
-✔
-
-✖
-
-✔
-
-✖
-
-public
-
-✔
-
-✔
-
-✔
-
-✔
-
-protected *
-
-✔
-
-✔
-
-✔
-
-✖
-
-private
-
-✔
-
-✖
-
-✖
-
-✖
 
 
 ### Método construtor
