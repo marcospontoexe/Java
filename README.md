@@ -23,6 +23,24 @@ Abaixo os tipos primitivos das variáveis da linguagem Java.
 
     * Veja um exemplo de aplicação gráfica usando a **biblioteca Swing** para [somar](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/02-SomaSwing/dist) dois valores inteiros, e outro para [calcular a idade](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/03-CalculaIdade/dist) a partir da data e hora atual do sistema operacional.
     * Como [comparar Strings](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/04-IgualdadeString/src/igualdadestring/IgualdadeString.java).
+  A tabela a seguir apresenta alguns dos métodos da classe java.lang.String:
+| Método                           | Descrição                                                                                                           | Tipo de Retorno |
+|----------------------------------|---------------------------------------------------------------------------------------------------------------------|-----------------|
+| `charAt()`                       | Retorna o caractere no índice especificado (posição).                                                               | `char`          |
+| `concat(String str)`             | Concatena a string especificada ao final desta string.                                                              | `string`        |
+| `equals(Object anObject)`        | Compara esta string com o objeto especificado.                                                                      | `boolean`       |
+| `equalsIgnoreCase(String anotherString)` | Compara esta string com outra string, ignorando diferenças de maiúsculas e minúsculas (case insensitive). | `boolean`       |
+| `indexOf(int ch)`                | Retorna o índice dentro desta string da primeira ocorrência do caractere especificado.                              | `int`           |
+| `indexOf(String str)`            | Retorna o índice dentro desta string da primeira ocorrência da substring especificada.                             | `int`           |
+| `isEmpty()`                      | Retorna verdadeiro se, e somente se, `length()` for 0.                                                              | `boolean`       |
+| `length()`                       | Retorna o comprimento desta string.                                                                                | `int`           |
+| `replace(char oldChar, char newChar)` | Retorna uma nova string resultante da substituição de todas as ocorrências de `oldChar` nesta string por `newChar`. | `string`        |
+| `substring(int beginIndex)`      | Retorna uma nova string que é uma substring desta string.                                                           | `string`        |
+| `toLowerCase()`                  | Converte todos os caracteres desta string em minúsculas.                                                            | `string`        |
+| `toUpperCase()`                  | Converte todos os caracteres desta string em maiúsculas.                                                            | `string`        |
+| `valueOf(float f)`               | Retorna a representação de string do argumento `float`.                                                             | `string`        |
+| `valueOf(int i)`                 | Retorna a representação de string do argumento `int`.                                                               | `string`        |
+
 * Como trabalhar com **operadores** usando a biblioteca [Math](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/01-BibMath/src/bibmath/BibMath.java).
     * Veja um [exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/02-SwingMath/dist) usando a Swing para achar as raizes, o cubo, o quadrado e o resto da divisão de um inteiro.
     * Exemplo usando [operador ternário](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/03-OpTernario/src/opternario/OpTernario.java).
