@@ -24,6 +24,7 @@ Abaixo os tipos primitivos das variáveis da linguagem Java.
     * Veja um exemplo de aplicação gráfica usando a **biblioteca Swing** para [somar](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/02-SomaSwing/dist) dois valores inteiros, e outro para [calcular a idade](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/03-CalculaIdade/dist) a partir da data e hora atual do sistema operacional.
     * Como [comparar Strings](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/04-IgualdadeString/src/igualdadestring/IgualdadeString.java).
   A tabela a seguir apresenta alguns dos métodos da classe java.lang.String:
+
 | Método                           | Descrição                                                                                                           | Tipo de Retorno |
 |----------------------------------|---------------------------------------------------------------------------------------------------------------------|-----------------|
 | `charAt()`                       | Retorna o caractere no índice especificado (posição).                                                               | `char`          |
