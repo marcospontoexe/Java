@@ -106,6 +106,8 @@ Esse molde é chamado de **classe** e possui todas as características e comport
 
 O nome dado ao processo de criação de um objeto a parti de uma classe existente se chama **instanciar** um objeto. Com objeto instanciado (criado) é possível saber qual é o estado atual desse objeto e alterar esse estado, antes disso o estado do objeto é inexistem, pois ainda não foi instanciado.
 
+Em Java, um objeto existe apenas quando é instanciado com a palavra-chave **new**.
+
 Veja nesse [repositório](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src) como o código [Objetos.java](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src/objetos/Objetos.java) importa a classe [Fatorial.java](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src/classes/Fatorial.java) e instancia um objeto chamdado "f".
 
 ### Modificadores de acesso
