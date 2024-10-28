@@ -41,5 +41,17 @@ public class ListaCores {
 
         System.out.println("----");
         System.out.println("Tamanho da lista = " + cores.size());
+        /*
+        add(Object obj)                    // insere um objeto no fim da lista
+        add(int index, Object obj)         // insere um objeto na posição especificada
+        remove(Object obj)                 // remove da lista o objeto especificado
+        remove(int index)                  // remove da lista o objeto na posição especificada
+        set(int index, Object obj)         // atualiza o objeto na posição especificada
+        int indexOf(Object obj)            // retorna à posição do objeto especificado
+        Object get(int index)              // retorna o objeto na posição especificada
+        int size( )                        // retorna o tamanho da lista
+        boolean contains(Object obj)       // verifica se o objeto passado está na lista
+        clear( )                           // remove todos os objetos da lista
+        */
     }
 }
