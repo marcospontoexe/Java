@@ -20,6 +20,15 @@ public class Variaveis {
         // declaração de variável usando typecast
         int ano = (int)2020;    // declaração de variável usando typecast
         float peso = (float)60.5;
+
+        /*USANDO var
+        Você pode utilizá-la em variáveis locais para que o Java determine 
+        o tipo de dado automaticamente, 
+        com base na atribuição.
+        Não pode ser usado em atributos!!!
+        */
+        var carros = new ArrayList ();  
+        var nome = "Orientação a Objetos
         
                 
         //-------------------MANIPULANDO SAÍDA DE DADOS--------------------------
