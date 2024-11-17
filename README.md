@@ -221,6 +221,7 @@ Polimorfismo significa "muitas formas" e refere-se à capacidade de um objeto ex
 
 A **assinatura do método** depende da quantidade e tipo dos parâmetros de entrada. Quando os métodos tem a mesma quantidade e tipos de parâmetros de entrada, eles tem a mesma assinatura.
 Quando o método tem o mesmo nome dentro de uma mesma classe, mas parâmetros ou tipos de retorno diferentes, dizemos que os métodos tem **assinaturas diferentes**.
+**Apenas mudar o tipo de retorno do método não é suficiente para sobrecarregar um método**. Se você tiver dois métodos com o mesmo nome e a mesma lista de parâmetros, mas com tipos de retorno diferentes, isso resultará em um erro de compilação.
 
 #### Sobreposição
 Acontece quando um método é substituido de uma classe mãe em uma classe filha, possui o mesmo nome e usa a mesma assinatura. O método sobrescrito não fica na mesma classe, ele é herdado de outra classe.
