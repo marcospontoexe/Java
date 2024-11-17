@@ -220,6 +220,7 @@ Todo objeto, ao ser instanciado, precisará ser completamente construído antes 
 Polimorfismo significa "muitas formas" e refere-se à capacidade de um objeto executar diferentes comportamentos dependendo do contexto. Os mais usados são o polimorfismo de **sobreposição** (ou override) e de **sobrecarga** de métodos. Existem outros tipos de polimorfismos, polimorfismo de inclusão e o paramétrico.
 
 A **assinatura do método** depende da quantidade e tipo dos parâmetros de entrada. Quando os métodos tem a mesma quantidade e tipos de parâmetros de entrada, eles tem a mesma assinatura.
+Quando o método tem o mesmo nome dentro de uma mesma classe, mas parâmetros ou tipos de retorno diferentes, dizemos que os métodos tem **assinaturas diferentes**.
 
 #### Sobreposição
 Acontece quando um método é substituido de uma classe mãe em uma classe filha, possui o mesmo nome e usa a mesma assinatura. O método sobrescrito não fica na mesma classe, ele é herdado de outra classe.
