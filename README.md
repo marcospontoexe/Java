@@ -157,6 +157,15 @@ A programação orientada a objetos se baseia em quatro pilares fundamentais: ab
 ### 1° pilar: Abstração
 A abstração é o processo de identificar as características essenciais de um objeto e ignorar os detalhes irrelevantes.
 
+A orientação de objetos fornece vários recursos para que criemos abstrações (simplificações) do mundo real:
+
+* Com as **classes**, descrevemos em forma de software os conceitos do mundo real que estão sendo implementados.
+* **Agrupamos as classes** por meio do relacionamento entre classes, entendendo suas interações ou situações do todo e suas partes.
+* Com a *herança**, criamos relações de tipos entre as classes, agrupando-as em hierarquias, de acordo com sua similaridade.
+* Com o **encapsulamento**, conseguimos esconder detalhes complexos da implementação, enquanto fornecemos uma interface pública de mais simples entendimento.
+* Com os **pacotes**, agrupamos classes relacionadas por alguma característica ou função.
+* Com o **polimorfismo** passamos a descrever o conceito de uma operação, mesmo que ela possa ser realizada de formas diferentes.
+
 ### 2° pilar: Encapsulamento
 Oculta os detalhes de implementação do objeto através dos modificadores de acesso, permitindo que apenas as operações essenciais sejam acessadas de fora do objeto, criando uma interface bem definida entre o usuário e o código.
 
