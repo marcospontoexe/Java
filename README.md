@@ -188,6 +188,7 @@ O relacionamento entre classes descreve como as classes se interagem e se relaci
 4. **Herança**: É um relacionamento onde uma classe (sub-classe) herda os atributos e métodos de outra classe (superclasse). Isso permite a reutilização de código e estabelece uma relação "é um" entre as classes. Por exemplo, uma classe "Cachorro" pode herdar de uma classe "Animal", indicando que um cachorro é um tipo de animal.
 5. **Dependência**: É um relacionamento onde uma classe depende de outra para realizar sua funcionalidade, mas não há uma relação estrutural entre elas. Por exemplo, uma classe "CarrinhoDeCompras" pode depender de uma classe "Produto" para adicionar produtos ao carrinho.
 
+Em Java, **uma classe pode estender apenas uma classe**, mas pode **implementar várias interfaces**. Se você precisa que uma classe herde comportamentos de várias fontes, você pode precisar usar interfaces.
 
 ### 3° pilar: Herança 
 A herança permite que uma classe herde características e comportamentos de outra classe, dependendo  do da configuração do modificador de acesso. Isso promove a reutilização de código e a criação de hierarquias de classes, onde as classes filhas (sub-classes) herdam características da classe mãe (classe progenitora, ou super classe) e podem adicionar suas próprias características exclusivas.
