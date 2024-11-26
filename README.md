@@ -31,8 +31,9 @@ Abaixo os tipos primitivos das variáveis da linguagem Java.
  
 ### String
 
-    * Como [comparar Strings](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/04-IgualdadeString/src/igualdadestring/IgualdadeString.java).
-  A tabela a seguir apresenta alguns dos métodos da classe java.lang.String:
+* Como [comparar Strings](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/04-IgualdadeString/src/igualdadestring/IgualdadeString.java).
+  
+A tabela a seguir apresenta alguns dos métodos da classe java.lang.String:
 
 | Método                           | Descrição                                                                                                           | Tipo de Retorno |
 |----------------------------------|---------------------------------------------------------------------------------------------------------------------|-----------------|
