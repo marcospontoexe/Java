@@ -63,24 +63,24 @@ A tabela a seguir apresenta alguns dos métodos da classe java.lang.String:
     * Veja um [exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/02-SwingMath/dist) usando a Swing para achar as raizes, o cubo, o quadrado e o resto da divisão de um inteiro.
     * Exemplo usando [**operador ternário**](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/03-OpTernario/src/opternario/OpTernario.java).
     * Execute o jogo ["Genio.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/04-Genio/dist) desenvolvido com a biblioteca *Swing* e *Math*.
-    * 
+      
 ### Estruturas condicionais
 
-    * Veja como usar a estrutura [`if`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/06-estrutura%20condicional/01-CondicaoIf/src/condicaoif/CondicaoIf.java).
-    * Veja como usar a estrutura [`switch`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/06-estrutura%20condicional/02-CondicaoSwitch/src/condicaoswitch/CondicaoSwitch.java).
-    * A aplicação ["Triangulos.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/06-estrutura%20condicional/03-Triangulos/dist) verifica qual é o tipo do triângulo.
+* Veja como usar a estrutura [`if`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/06-estrutura%20condicional/01-CondicaoIf/src/condicaoif/CondicaoIf.java).
+* Veja como usar a estrutura [`switch`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/06-estrutura%20condicional/02-CondicaoSwitch/src/condicaoswitch/CondicaoSwitch.java).
+* A aplicação ["Triangulos.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/06-estrutura%20condicional/03-Triangulos/dist) verifica qual é o tipo do triângulo.
     
 ### Etruturas de repetição.
 
-    * Veja como usar a estrutura [`while`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/07-estrutura%20de%20repeti%C3%A7%C3%A3o/01-RepetWhile/src/repetwhile/RepetWhile.java).
-    * Veja como usar a estrutura [`do while`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/07-estrutura%20de%20repeti%C3%A7%C3%A3o/02-RepetDoWhile/src/repetdowhile/RepetDoWhile.java).
-    * Veja como usar a estrutura [`for`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/07-estrutura%20de%20repeti%C3%A7%C3%A3o/03-RepetFor/src/repetfor/RepetFor.java).
+* Veja como usar a estrutura [`while`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/07-estrutura%20de%20repeti%C3%A7%C3%A3o/01-RepetWhile/src/repetwhile/RepetWhile.java).
+* Veja como usar a estrutura [`do while`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/07-estrutura%20de%20repeti%C3%A7%C3%A3o/02-RepetDoWhile/src/repetdowhile/RepetDoWhile.java).
+* Veja como usar a estrutura [`for`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/07-estrutura%20de%20repeti%C3%A7%C3%A3o/03-RepetFor/src/repetfor/RepetFor.java).
     
 ### Variáveis compostas
 
-    * Veja como manipular [**vetores**](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/08-vetores/01-Vetor/src/vetor/Vetor.java).
-    * Veja como manipular [**array list**](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/08-vetores/03-Arraylist/arrayList/src/ListaCores.java). Com arraylist é possível **adicionar ou remover** elementos após a sua criação, o que o torna mais flexível em comparação com o array tradicional (vetor).
-    * [Manipule um vetor](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/08-vetores/02-VetorSwing/dist) de forma prática usando a biblioteca Swing, insirindo e apagando valores em qualquer posição do vetor usando o mouse.
+* Veja como manipular [**vetores**](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/08-vetores/01-Vetor/src/vetor/Vetor.java).
+* Veja como manipular [**array list**](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/08-vetores/03-Arraylist/arrayList/src/ListaCores.java). Com arraylist é possível **adicionar ou remover** elementos após a sua criação, o que o torna mais flexível em comparação com o array tradicional (vetor).
+* [Manipule um vetor](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/08-vetores/02-VetorSwing/dist) de forma prática usando a biblioteca Swing, insirindo e apagando valores em qualquer posição do vetor usando o mouse.
     
 ### Métodos
 
