@@ -9,9 +9,11 @@ Crie **interfaces gráficas** usando a biblioteca [Swing](https://github.com/mar
    * Execute a aplicação de exemplo ["imagens.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/04-swing/relogio/Imagens/dist) para obeter a data e hora do sistema operacional.
    * Execute a aplicação ["SwingJanelaAutomatica.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/06-SwingJanelaAutomatica/dist) para um exemplo de interatividade com o usuário.
 ### JavaFX
-Crie **interfaces gráficas** usando a plataforma **JavaFX**.
-    * Veja o exemplo ["OlaMundo.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/05-JavaFX/OlaMundo/dist).
+Crie **interfaces gráficas** usando a plataforma **JavaFX**. 
+  * Veja o exemplo ["OlaMundo.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/05-JavaFX/OlaMundo/dist).
+
 ### Entrada e saida de dados
+
 Java é uma linguagem **fortemente tipada**, veja como usar [entradas e saidas de dados e manipular variáveis](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/01-Variaveis/src/variaveis/Variaveis.java).
 Abaixo os tipos primitivos das variáveis da linguagem Java.
 ![Tipos de variáveis](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/Imagens/vari%C3%A1veis.png)
@@ -24,7 +26,7 @@ Abaixo os tipos primitivos das variáveis da linguagem Java.
     | long    | Números long terminam com l ou L.                           | `long e = 12l;`  `long f = 25L;` |                                                                             |
     | int    | Para representar números em diferentes sistemas de numeração. | `int decVal = 26; //decimal`  `int hexVal = 0x1A; //hexadecimal`  `int binVal = 0b11010; //binário` |   |
 
-    * Veja um exemplo de aplicação gráfica usando a **biblioteca Swing** para [somar](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/02-SomaSwing/dist) dois valores inteiros, e outro para [calcular a idade](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/03-CalculaIdade/dist) a partir da data e hora atual do sistema operacional.
+* Veja um exemplo de aplicação gráfica usando a **biblioteca Swing** para [somar](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/02-SomaSwing/dist) dois valores inteiros, e outro para [calcular a idade](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/03-CalculaIdade/dist) a partir da data e hora atual do sistema operacional.
  
 ### String
     * Como [comparar Strings](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/04-IgualdadeString/src/igualdadestring/IgualdadeString.java).
