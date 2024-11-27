@@ -106,6 +106,33 @@ try {
 }
 ```
 
+##### Capturando exceções
+Quando uma exceção ocorre, ela abandona imediatamente o método que a gerou. Em seguida, ela é propagada para a função que chamou esse método e, caso haja um tratamento, essa propagação é interrompida. Caso não haja, ela fará com que esse método também seja abandonado, e esse ciclo pode continuar até que ela deixe o main, finalizando o programa e encerrando a aplicação.
+
+#### Multi-catch
+Muitas vezes, um grupo de exceções apresenta tratamento idêntico, tal como mostrar a mensagem de erro, ou ignorá-la para que o usuário possa repetir a ação. Nesse caso, você pode especificar um grupo de exceções a serem capturadas por meio do operador de “|” (chamado de pipe), como apresentado no exemplo a seguir.
+
+```java
+public class Exemplo {
+    static int realizarConta(int x, int y) {
+        return y / x;
+    }
+        
+    public static void main(String[] args) {
+        try {
+            int z = realizarConta(2, 10);
+            System.out.println(z);
+            
+            String x = null;
+            System.out.println(x.length());
+        } catch (ArithmeticException | NullPointerException e) { // 2 tipos de  exceção tratados da mesma forma
+            System.out.println(e.getMessage());                                                        
+        }                                                       
+        System.out.println("FIM");
+    }
+}
+```
+
 # Programação orientada a objetos (POO) no Java
 A programação orientada a objetos tem o objetivo de aproximar o mundo digital do mundo real.  
 
