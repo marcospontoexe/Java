@@ -93,19 +93,18 @@ Tratamento de exceções é uma técnica utilizada em programação para lidar c
 Quando uma exceção ocorre, ela pode interromper o fluxo normal do programa. O tratamento de exceções é implementado usando mecanismos específicos da linguagem de programação, como **try**, **catch** e **finally**.
 Veja o exemplo a baixo:
 
-    '''java
-    try {
-        // Código que pode gerar uma exceção
-        int result = 10 / 0;
-    } catch (ArithmeticException e) {
-        // Tratamento da exceção
-        System.out.println("Erro: " + e.getMessage());
-    } finally {
-        // Código que será executado sempre
-        System.out.println("Finalizando o bloco.");
-    }
-    '''
-
+```java
+try {
+    // Código que pode gerar uma exceção.
+    int result = 10 / 0;
+} catch (ArithmeticException e) {
+    // Tratamento da exceção. Caso seja gerada uma exceção será executado esse bloco
+    System.out.println("Erro: " + e.getMessage());
+} finally {
+    // Código que será executado sempre
+    System.out.println("Finalizando o bloco.");
+}
+```
 
 # Programação orientada a objetos (POO) no Java
 A programação orientada a objetos tem o objetivo de aproximar o mundo digital do mundo real.  
