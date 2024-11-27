@@ -135,7 +135,14 @@ public class Exemplo {
 
 #### Tipos de exceções
 Primeiramente, é importante saber que existem diferentes tipos de exceções. A hierarquia de classes das exceções começa com quatro classes importantes.
+
 ![](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/imagens/exe%C3%A7%C3%B5es.png)
+
+A classe **throwable** representa qualquer coisa que possa ser disparada como exceção e capturada na cláusula catch. Destacamos três métodos importantes:
+
+* **getMessage**: observe que o Java especifica que todas as exceções devem possuir uma mensagem descritiva de erro. Mesmo quando criamos nossas exceções, devemos nos preocupar em escrever um texto descritivo do problema ocorrido.
+* **getCause**: em algumas situações, pode ser interessante capturar uma exceção específica e gerar outra mais abrangente. Por exemplo, em um método que faz a carga dos dados da sua aplicação de diferentes locais, você pode querer capturar a exceção específica das várias fontes de dados (SQLException, IOException etc.) e disparar uma exceção mais geral. Nesse caso, é possível incluir a exceção original como causadora. 
+* **printStackTrace**: imprime o stack trace da exceção.
 
 # Programação orientada a objetos (POO) no Java
 A programação orientada a objetos tem o objetivo de aproximar o mundo digital do mundo real.  
