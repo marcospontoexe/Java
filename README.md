@@ -106,7 +106,7 @@ try {
 }
 ```
 
-##### Capturando exceções
+#### Capturando exceções
 Quando uma exceção ocorre, ela abandona imediatamente o método que a gerou. Em seguida, ela é propagada para a função que chamou esse método e, caso haja um tratamento, essa propagação é interrompida. Caso não haja, ela fará com que esse método também seja abandonado, e esse ciclo pode continuar até que ela deixe o main, finalizando o programa e encerrando a aplicação.
 
 #### Multi-catch
@@ -132,6 +132,10 @@ public class Exemplo {
     }
 }
 ```
+
+#### Tipos de exceções
+Primeiramente, é importante saber que existem diferentes tipos de exceções. A hierarquia de classes das exceções começa com quatro classes importantes.
+![](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/imagens/exe%C3%A7%C3%B5es.png)
 
 # Programação orientada a objetos (POO) no Java
 A programação orientada a objetos tem o objetivo de aproximar o mundo digital do mundo real.  
