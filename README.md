@@ -144,6 +144,12 @@ A classe **throwable** representa qualquer coisa que possa ser disparada como ex
 * **getCause**: em algumas situações, pode ser interessante capturar uma exceção específica e gerar outra mais abrangente. Por exemplo, em um método que faz a carga dos dados da sua aplicação de diferentes locais, você pode querer capturar a exceção específica das várias fontes de dados (SQLException, IOException etc.) e disparar uma exceção mais geral. Nesse caso, é possível incluir a exceção original como causadora. 
 * **printStackTrace**: imprime o stack trace da exceção.
 
+Quando formos criar nossas próprias exceções, jamais as criaremos como filhas diretas da classe throwable. No lugar, o Java fornece as classes **Exception** e **RuntimeException** para isso. Elas representam os dois tipos de exceção da linguagem.
+* Exceções verificadas (filhas de Exception): Devem ser obrigatoriamente capturadas pelo programador. No caso delas, a cláusula try...catch será obrigatória, ou o método terá de sinalizar que dispara aquela exceção. Geralmente representam problemas comuns, relacionados à situação sendo modelada. Por exemplo, as classes que carregam arquivos no Java disparam uma exceção verificada do tipo IOException. Isso ocorre porque há vários problemas comuns na carga de arquivos (arquivo não existir, estar corrompido, não ter permissão de leitura etc.).
+* Exceções não verificadas (filhas de RuntimeException): Não precisam ser tratadas pelo programador. Geralmente, representam problemas de programação, que poderiam ser prevenidos de outra forma.
+
+E a classe **Error**? Ela também irá disparar exceções não verificadas, porém, representam erros graves, cujo tratamento não é possível. Frequentemente, ela só é capturada para fins de registro. Elas geralmente são disparadas pela Virtual Machine (VM). Um exemplo de erro é a falta de memória. Não há o que a aplicação fazer caso um OutOfMemoryError seja disparado.
+
 # Programação orientada a objetos (POO) no Java
 A programação orientada a objetos tem o objetivo de aproximar o mundo digital do mundo real.  
 
