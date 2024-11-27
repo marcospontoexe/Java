@@ -86,6 +86,26 @@ A tabela a seguir apresenta alguns dos métodos da classe java.lang.String:
 
 Veja como usar [métodos](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/09-m%C3%A9todos%20(fun%C3%A7%C3%B5es)/01-Metodos/src/metodos).
 
+### Tratamento de Exceção
+
+Tratamento de exceções é uma técnica utilizada em programação para lidar com erros ou situações inesperadas que podem ocorrer durante a execução de um programa. Em vez de o programa simplesmente falhar ou travar ao encontrar um problema, o tratamento de exceções permite que você capture e responda adequadamente a essas situações, garantindo maior robustez e controle.
+Quando uma exceção ocorre, ela pode interromper o fluxo normal do programa. O tratamento de exceções é implementado usando mecanismos específicos da linguagem de programação, como **try**, **catch** e **finally**.
+Veja o exemplo a baixo:
+
+    ```java
+    try {
+        // Código que pode gerar uma exceção
+        int result = 10 / 0;
+    } catch (ArithmeticException e) {
+        // Tratamento da exceção
+        System.out.println("Erro: " + e.getMessage());
+    } finally {
+        // Código que será executado sempre
+        System.out.println("Finalizando o bloco.");
+    }
+    ```
+
+
 # Programação orientada a objetos (POO) no Java
 A programação orientada a objetos tem o objetivo de aproximar o mundo digital do mundo real.  
 
