@@ -89,10 +89,11 @@ Veja como usar [métodos](https://github.com/marcospontoexe/Java/tree/main/Mater
 ### Tratamento de Exceção
 
 Tratamento de exceções é uma técnica utilizada em programação para lidar com erros ou situações inesperadas que podem ocorrer durante a execução de um programa. Em vez de o programa simplesmente falhar ou travar ao encontrar um problema, o tratamento de exceções permite que você capture e responda adequadamente a essas situações, garantindo maior robustez e controle.
+
 Quando uma exceção ocorre, ela pode interromper o fluxo normal do programa. O tratamento de exceções é implementado usando mecanismos específicos da linguagem de programação, como **try**, **catch** e **finally**.
 Veja o exemplo a baixo:
 
-    ```java
+    '''java
     try {
         // Código que pode gerar uma exceção
         int result = 10 / 0;
@@ -103,7 +104,7 @@ Veja o exemplo a baixo:
         // Código que será executado sempre
         System.out.println("Finalizando o bloco.");
     }
-    ```
+    '''
 
 
 # Programação orientada a objetos (POO) no Java
