@@ -46,11 +46,11 @@ A tabela a seguir apresenta alguns dos métodos da classe java.lang.String:
 ### Operadores
 
 * Como trabalhar com **operadores** usando a biblioteca [Math](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/01-BibMath/src/bibmath/BibMath.java).
-    * Exemplo usando [**operador ternário**](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/03-OpTernario/src/opternario/OpTernario.java).
       
 ### Estruturas condicionais
 
 * Veja como usar a estrutura [`if`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/06-estrutura%20condicional/01-CondicaoIf/src/condicaoif/CondicaoIf.java).
+ * Exemplo usando [**operador ternário**](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/03-OpTernario/src/opternario/OpTernario.java).
 * Veja como usar a estrutura [`switch`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/06-estrutura%20condicional/02-CondicaoSwitch/src/condicaoswitch/CondicaoSwitch.java).
 * A aplicação ["Triangulos.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/06-estrutura%20condicional/03-Triangulos/dist) verifica qual é o tipo do triângulo.
     
