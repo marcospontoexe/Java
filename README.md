@@ -5,18 +5,6 @@ Este repositório mostra alguns exemplos de uso da linguagem Java e sua sintaxe.
 
 * Veja como usar [pacotes](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)) externos.
 
-### Swing
-
-Crie **interfaces gráficas** usando a biblioteca [Swing](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/04-swing). 
-   * Execute a aplicação de exemplo ["Usando_Swing.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/04-swing/Usando%20Swing/dist).
-   * Execute a aplicação de exemplo ["imagens.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/04-swing/relogio/Imagens/dist) para obeter a data e hora do sistema operacional.
-   * Execute a aplicação ["SwingJanelaAutomatica.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/06-SwingJanelaAutomatica/dist) para um exemplo de interatividade com o usuário.
-     
-### JavaFX
-
-Crie **interfaces gráficas** usando a plataforma **JavaFX**. 
-  * Veja o exemplo ["OlaMundo.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/05-JavaFX/OlaMundo/dist).
-
 ### Entrada e saida de dados
 
 Java é uma linguagem **fortemente tipada**, veja como usar [entradas e saidas de dados e manipular variáveis](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/01-Variaveis/src/variaveis/Variaveis.java).
@@ -31,8 +19,6 @@ Abaixo os tipos primitivos das variáveis da linguagem Java.
   | double  | Números double terminam com d ou D.              | `double c = 7.1d;`  `double d = 3.1415D;` |                                                              |
   | long    | Números long terminam com l ou L.                           | `long e = 12l;`  `long f = 25L;` |                                                                             |
   | int    | Para representar números em diferentes sistemas de numeração. | `int decVal = 26; //decimal`  `int hexVal = 0x1A; //hexadecimal`  `int binVal = 0b11010; //binário` |   |
-
-* Veja um exemplo de aplicação gráfica usando a **biblioteca Swing** para [somar](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/02-SomaSwing/dist) dois valores inteiros, e outro para [calcular a idade](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/03-CalculaIdade/dist) a partir da data e hora atual do sistema operacional.
  
 ### String
 
@@ -60,9 +46,7 @@ A tabela a seguir apresenta alguns dos métodos da classe java.lang.String:
 ### Operadores
 
 * Como trabalhar com **operadores** usando a biblioteca [Math](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/01-BibMath/src/bibmath/BibMath.java).
-    * Veja um [exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/02-SwingMath/dist) usando a Swing para achar as raizes, o cubo, o quadrado e o resto da divisão de um inteiro.
     * Exemplo usando [**operador ternário**](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/03-OpTernario/src/opternario/OpTernario.java).
-    * Execute o jogo ["Genio.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/04-Genio/dist) desenvolvido com a biblioteca *Swing* e *Math*.
       
 ### Estruturas condicionais
 
@@ -183,6 +167,21 @@ Interfaces gráficas, também conhecidas como Graphical User Interfaces (GUI), s
 As interfaces gráficas funcionam com base de **disparo de eventos**. Nesse modelo, o fluxo do programa é determinado por eventos, como cliques de mouse, pressionamento de teclas, movimento do mouse etc. Vamos tomar como exemplo um botão em uma interface gráfica. O botão é um objeto na tela que o usuário pode interagir, não é? Quando o usuário clica no botão, um evento de clique é disparado. Esse evento é uma espécie de sinal que informa ao programa que algo aconteceu.
 
 Para que algo útil aconteça quando o usuário clica no botão, o programa deve ter um "ouvinte de eventos" (**event listener**) configurado para esse botão. Um ouvinte de eventos é um pedaço de código que "ouve" um tipo específico de evento e executa um bloco de código quando esse evento ocorre.
+
+## Swing
+
+Crie **interfaces gráficas** usando a biblioteca [Swing](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/04-swing). 
+   * Execute a aplicação de exemplo ["Usando_Swing.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/04-swing/Usando%20Swing/dist).
+   * Execute a aplicação de exemplo ["imagens.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/04-swing/relogio/Imagens/dist) para obeter a data e hora do sistema operacional.
+   * Execute a aplicação ["SwingJanelaAutomatica.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/06-SwingJanelaAutomatica/dist) para um exemplo de interatividade com o usuário.
+   * Veja um exemplo de aplicação gráfica usando a **biblioteca Swing** para [somar](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/02-SomaSwing/dist) dois valores inteiros, e outro para [calcular a idade](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/03-CalculaIdade/dist) a partir da data e hora atual do sistema operacional.
+   * Veja um [exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/02-SwingMath/dist) usando a Swing para achar as raizes, o cubo, o quadrado e o resto da divisão de um inteiro.
+   * Execute o jogo ["Genio.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/04-Genio/dist) desenvolvido com a biblioteca *Swing* e *Math*.
+     
+## JavaFX
+
+Crie **interfaces gráficas** usando a plataforma **JavaFX**. 
+  * Veja o exemplo ["OlaMundo.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/05-JavaFX/OlaMundo/dist).
 
 # Programação orientada a objetos (POO) no Java
 A programação orientada a objetos tem o objetivo de aproximar o mundo digital do mundo real.  
