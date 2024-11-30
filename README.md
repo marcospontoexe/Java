@@ -159,6 +159,13 @@ No código do exemplo anterior, o método `read (c = in.read())` retorna um int 
 * Fluxo de bytes, o inteiro retornado = 8 bits de tamanho. 
 * Fluxo de caracteres, o inteiro retornado = 16 bits de tamanho.
 
+#### Lendo e escrevendo linhas
+Para manipular arquivos de textos, com informações separadas por **finalizador de linha** (\r, \n, \r\n), usamos a classe **BufferedReader** para ter uma melhor eficiência nas operações de leitura/escrita de dados, que geralmente são lentas já que acessam o disco. A classe BufferedReader acumula leitura ou escrita em um buffer (área temporária de memória).
+
+Além disso, utilizamos também a classe **PrintWriter** (utilizada pelo System.out) para ter mais conforto na escrita do texto. Ela fornece vários métodos convenientes para a escrita de texto, como o **printl**n e o **printf**.
+
+[Veja nesse exemplo](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/manipula%C3%A7%C3%A3o%20da%20dados/CopiarCaracter.java) um código que escreve, lê caracteres em arquivo e copia, linha a linha, dados de um arquivo texto para outro. 
+
 # Programação orientada a objetos (POO) no Java
 A programação orientada a objetos tem o objetivo de aproximar o mundo digital do mundo real.  
 
