@@ -150,6 +150,15 @@ Quando formos criar nossas próprias exceções, jamais as criaremos como filhas
 
 E a classe **Error**? Ela também irá disparar exceções não verificadas, porém, representam erros graves, cujo tratamento não é possível. Frequentemente, ela só é capturada para fins de registro. Elas geralmente são disparadas pela Virtual Machine (VM). Um exemplo de erro é a falta de memória. Não há o que a aplicação fazer caso um OutOfMemoryError seja disparado.
 
+### Leitura e gravação de dados em arquivo
+As classes **FileOutputStream** e **FileInputStream** são  responsáveis em mandar e receber dados de um arquivo atraves do **fluxo de bytes**, byte a byte, ou de oito em oito bits. Geralmente, usamos essas duas classes para a entrada/saída de arquivos em bytes (8 bits). Veja [nesse exemplo](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/manipula%C3%A7%C3%A3o%20da%20dados/ManipularDados.java) como gravar e ler dados de um arquivo **.txt**.
+
+As classes **FileWriter** e **FileReader** são responsávei em mandar e receber dados de um arquivo através do **fluxo de caracteres**, caractere a caractere, ou de 16 em 16 bits. Os fluxos de caracteres são um tipo especializado de fluxo de bytes para tratar caracteres unicode, um padrão para representar e manipular texto dos sistemas de escrita existente.
+
+No código do exemplo anterior, o método `read (c = in.read())` retorna um int tanto para o fluxo de bytes quanto para o fluxo de caracteres. Contudo:
+* Fluxo de bytes, o inteiro retornado = 8 bits de tamanho. 
+* Fluxo de caracteres, o inteiro retornado = 16 bits de tamanho.
+
 # Programação orientada a objetos (POO) no Java
 A programação orientada a objetos tem o objetivo de aproximar o mundo digital do mundo real.  
 
