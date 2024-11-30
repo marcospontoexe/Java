@@ -166,6 +166,24 @@ Além disso, utilizamos também a classe **PrintWriter** (utilizada pelo System.
 
 [Veja nesse exemplo](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/manipula%C3%A7%C3%A3o%20da%20dados/CopiarCaracter.java) um código que escreve, lê caracteres em arquivo e copia, linha a linha, dados de um arquivo texto para outro. 
 
+#### Persistência de objeto com controle de versão
+
+Assim como conseguimos gravar e recuperar linhas inteiras de arquivos-texto, também, conseguimos gravar e recuperar objetos.
+
+Para isso, precisamos primeiramente transformar a estrutura do objeto em uma sequência binária. Fazemos isso serializando o estado do objeto (seus atributos) em uma stream (cadeia de bytes), que pode então ser gravado em arquivo binário ou transportado por meio de uma rede.
+
+E, para poder ser serializada, uma classe precisa implementar a interface **java.io.Serializable** ou ser herdeira de uma classe que a implemente.
+
+Classes que não implementam a interface java.io.Serializable **não podem serializar/desserializar seu estado**. Ou seja, seus objetos não podem ser persistidos ou transferidos pela rede.
+
+# Interface gráfica: Interação por eventos
+
+Interfaces gráficas, também conhecidas como Graphical User Interfaces (GUI), são uma maneira intuitiva de interagir com programas de computador. Em vez de escrever comandos em uma linha de texto, o usuário pode interagir diretamente com elementos gráficos na tela, como botões, menus e caixas de texto.
+
+As interfaces gráficas funcionam com base de **disparo de eventos**. Nesse modelo, o fluxo do programa é determinado por eventos, como cliques de mouse, pressionamento de teclas, movimento do mouse etc. Vamos tomar como exemplo um botão em uma interface gráfica. O botão é um objeto na tela que o usuário pode interagir, não é? Quando o usuário clica no botão, um evento de clique é disparado. Esse evento é uma espécie de sinal que informa ao programa que algo aconteceu.
+
+Para que algo útil aconteça quando o usuário clica no botão, o programa deve ter um "ouvinte de eventos" (**event listener**) configurado para esse botão. Um ouvinte de eventos é um pedaço de código que "ouve" um tipo específico de evento e executa um bloco de código quando esse evento ocorre.
+
 # Programação orientada a objetos (POO) no Java
 A programação orientada a objetos tem o objetivo de aproximar o mundo digital do mundo real.  
 
