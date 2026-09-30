@@ -1,0 +1,383 @@
+# Anotações de estudo
+
+Anotações teóricas feitas durante o estudo de Java, com links para os exemplos de código. O catálogo de projetos e as instruções para executá-los estão no [README](https://github.com/marcospontoexe/Java/blob/main/README.md).
+
+## Fundamentos da linguagem
+
+* Veja como usar [pacotes](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)) externos.
+
+### Entrada e saida de dados
+
+Java é uma linguagem **fortemente tipada**, veja como usar [entradas e saidas de dados e manipular variáveis](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/01-Variaveis/src/variaveis/Variaveis.java).
+Abaixo os tipos primitivos das variáveis da linguagem Java.
+
+![Tipos de variáveis](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/Imagens/vari%C3%A1veis.png)
+
+  | Código  | Regra                                                      | Exemplo                          | Observações                                                               |
+  |---------|-------------------------------------------------------------|----------------------------------|--------------------------------------------------------------------------|
+  | float   | Números float terminam com f ou F.       | `float a = 7.1f;`  `float b = 3.1415F;` | Um número com ponto flutuante e sem letra no final é `double` por padrão no Java.     |
+  |         |                                                         |                               | Apenas para identificação de tipo, maiúsculas e minúsculas são equivalentes.   |
+  | double  | Números double terminam com d ou D.              | `double c = 7.1d;`  `double d = 3.1415D;` |                                                              |
+  | long    | Números long terminam com l ou L.                           | `long e = 12l;`  `long f = 25L;` |                                                                             |
+  | int    | Para representar números em diferentes sistemas de numeração. | `int decVal = 26; //decimal`  `int hexVal = 0x1A; //hexadecimal`  `int binVal = 0b11010; //binário` |   |
+ 
+### String
+
+* Como [comparar Strings](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/04-IgualdadeString/src/igualdadestring/IgualdadeString.java).
+  
+A tabela a seguir apresenta alguns dos métodos da classe java.lang.String:
+
+| Método                           | Descrição                                                                                                           | Tipo de Retorno |
+|----------------------------------|---------------------------------------------------------------------------------------------------------------------|-----------------|
+| `charAt()`                       | Retorna o caractere no índice especificado (posição).                                                               | `char`          |
+| `concat(String str)`             | Concatena a string especificada ao final desta string.                                                              | `string`        |
+| `equals(Object anObject)`        | Compara esta string com o objeto especificado.                                                                      | `boolean`       |
+| `equalsIgnoreCase(String anotherString)` | Compara esta string com outra string, ignorando diferenças de maiúsculas e minúsculas (case insensitive). | `boolean`       |
+| `indexOf(int ch)`                | Retorna o índice dentro desta string da primeira ocorrência do caractere especificado.                              | `int`           |
+| `indexOf(String str)`            | Retorna o índice dentro desta string da primeira ocorrência da substring especificada.                             | `int`           |
+| `isEmpty()`                      | Retorna verdadeiro se, e somente se, `length()` for 0.                                                              | `boolean`       |
+| `length()`                       | Retorna o comprimento desta string.                                                                                | `int`           |
+| `replace(char oldChar, char newChar)` | Retorna uma nova string resultante da substituição de todas as ocorrências de `oldChar` nesta string por `newChar`. | `string`        |
+| `substring(int beginIndex)`      | Retorna uma nova string que é uma substring desta string.                                                           | `string`        |
+| `toLowerCase()`                  | Converte todos os caracteres desta string em minúsculas.                                                            | `string`        |
+| `toUpperCase()`                  | Converte todos os caracteres desta string em maiúsculas.                                                            | `string`        |
+| `valueOf(float f)`               | Retorna a representação de string do argumento `float`.                                                             | `string`        |
+| `valueOf(int i)`                 | Retorna a representação de string do argumento `int`.                                                               | `string`        |
+
+### Operadores
+
+* Como trabalhar com **operadores** usando a biblioteca [Math](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/01-BibMath/src/bibmath/BibMath.java).
+      
+### Estruturas condicionais
+
+* Veja como usar a estrutura [`if`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/06-estrutura%20condicional/01-CondicaoIf/src/condicaoif/CondicaoIf.java).
+ * Exemplo usando [**operador ternário**](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/03-OpTernario/src/opternario/OpTernario.java).
+* Veja como usar a estrutura [`switch`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/06-estrutura%20condicional/02-CondicaoSwitch/src/condicaoswitch/CondicaoSwitch.java).
+    
+### Etruturas de repetição.
+
+* Veja como usar a estrutura [`while`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/07-estrutura%20de%20repeti%C3%A7%C3%A3o/01-RepetWhile/src/repetwhile/RepetWhile.java).
+* Veja como usar a estrutura [`do while`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/07-estrutura%20de%20repeti%C3%A7%C3%A3o/02-RepetDoWhile/src/repetdowhile/RepetDoWhile.java).
+* Veja como usar a estrutura [`for`](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/07-estrutura%20de%20repeti%C3%A7%C3%A3o/03-RepetFor/src/repetfor/RepetFor.java).
+    
+### Variáveis compostas
+
+* Veja como manipular [**vetores**](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/08-vetores/01-Vetor/src/vetor/Vetor.java).
+* Veja como manipular [**array list**](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/08-vetores/03-Arraylist/arrayList/src/ListaCores.java). Com arraylist é possível **adicionar ou remover** elementos após a sua criação, o que o torna mais flexível em comparação com o array tradicional (vetor).
+    
+### Métodos
+
+Veja como usar [métodos](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/09-m%C3%A9todos%20(fun%C3%A7%C3%B5es)/01-Metodos/src/metodos).
+
+### Tratamento de Exceção
+
+Tratamento de exceções é uma técnica utilizada em programação para lidar com erros ou situações inesperadas que podem ocorrer durante a execução de um programa. Em vez de o programa simplesmente falhar ou travar ao encontrar um problema, o tratamento de exceções permite que você capture e responda adequadamente a essas situações, garantindo maior robustez e controle.
+
+Quando uma exceção ocorre, ela pode interromper o fluxo normal do programa. O tratamento de exceções é implementado usando mecanismos específicos da linguagem de programação, como **try**, **catch** e **finally**.
+Veja o exemplo a baixo:
+
+```java
+try {
+    // Código que pode gerar uma exceção.
+    int result = 10 / 0;
+} catch (ArithmeticException e) {
+    // Tratamento da exceção. Caso seja gerada uma exceção será executado esse bloco
+    System.out.println("Erro: " + e.getMessage());
+} finally {
+    // Código que será executado sempre
+    System.out.println("Finalizando o bloco.");
+}
+```
+
+#### Capturando exceções
+Quando uma exceção ocorre, ela abandona imediatamente o método que a gerou. Em seguida, ela é propagada para a função que chamou esse método e, caso haja um tratamento, essa propagação é interrompida. Caso não haja, ela fará com que esse método também seja abandonado, e esse ciclo pode continuar até que ela deixe o main, finalizando o programa e encerrando a aplicação.
+
+#### Multi-catch
+Muitas vezes, um grupo de exceções apresenta tratamento idêntico, tal como mostrar a mensagem de erro, ou ignorá-la para que o usuário possa repetir a ação. Nesse caso, você pode especificar um grupo de exceções a serem capturadas por meio do operador de “|” (chamado de pipe), como apresentado no exemplo a seguir.
+
+```java
+public class Exemplo {
+    static int realizarConta(int x, int y) {
+        return y / x;
+    }
+        
+    public static void main(String[] args) {
+        try {
+            int z = realizarConta(2, 10);
+            System.out.println(z);
+            
+            String x = null;
+            System.out.println(x.length());
+        } catch (ArithmeticException | NullPointerException e) { // 2 tipos de  exceção tratados da mesma forma
+            System.out.println(e.getMessage());                                                        
+        }                                                       
+        System.out.println("FIM");
+    }
+}
+```
+
+#### Tipos de exceções
+Primeiramente, é importante saber que existem diferentes tipos de exceções. A hierarquia de classes das exceções começa com quatro classes importantes.
+
+![](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/imagens/exe%C3%A7%C3%B5es.png)
+
+A classe **throwable** representa qualquer coisa que possa ser disparada como exceção e capturada na cláusula catch. Destacamos três métodos importantes:
+
+* **getMessage**: observe que o Java especifica que todas as exceções devem possuir uma mensagem descritiva de erro. Mesmo quando criamos nossas exceções, devemos nos preocupar em escrever um texto descritivo do problema ocorrido.
+* **getCause**: em algumas situações, pode ser interessante capturar uma exceção específica e gerar outra mais abrangente. Por exemplo, em um método que faz a carga dos dados da sua aplicação de diferentes locais, você pode querer capturar a exceção específica das várias fontes de dados (SQLException, IOException etc.) e disparar uma exceção mais geral. Nesse caso, é possível incluir a exceção original como causadora. 
+* **printStackTrace**: imprime o stack trace da exceção.
+
+Quando formos criar nossas próprias exceções, jamais as criaremos como filhas diretas da classe throwable. No lugar, o Java fornece as classes **Exception** e **RuntimeException** para isso. Elas representam os dois tipos de exceção da linguagem.
+* Exceções verificadas (filhas de Exception): Devem ser obrigatoriamente capturadas pelo programador. No caso delas, a cláusula try...catch será obrigatória, ou o método terá de sinalizar que dispara aquela exceção. Geralmente representam problemas comuns, relacionados à situação sendo modelada. Por exemplo, as classes que carregam arquivos no Java disparam uma exceção verificada do tipo IOException. Isso ocorre porque há vários problemas comuns na carga de arquivos (arquivo não existir, estar corrompido, não ter permissão de leitura etc.).
+* Exceções não verificadas (filhas de RuntimeException): Não precisam ser tratadas pelo programador. Geralmente, representam problemas de programação, que poderiam ser prevenidos de outra forma.
+
+E a classe **Error**? Ela também irá disparar exceções não verificadas, porém, representam erros graves, cujo tratamento não é possível. Frequentemente, ela só é capturada para fins de registro. Elas geralmente são disparadas pela Virtual Machine (VM). Um exemplo de erro é a falta de memória. Não há o que a aplicação fazer caso um OutOfMemoryError seja disparado.
+
+### Leitura e gravação de dados em arquivo
+As classes **FileOutputStream** e **FileInputStream** são  responsáveis em mandar e receber dados de um arquivo atraves do **fluxo de bytes**, byte a byte, ou de oito em oito bits. Geralmente, usamos essas duas classes para a entrada/saída de arquivos em bytes (8 bits). Veja [nesse exemplo](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/manipula%C3%A7%C3%A3o%20da%20dados/ManipularDados.java) como gravar e ler dados de um arquivo **.txt**.
+
+As classes **FileWriter** e **FileReader** são responsávei em mandar e receber dados de um arquivo através do **fluxo de caracteres**, caractere a caractere, ou de 16 em 16 bits. Os fluxos de caracteres são um tipo especializado de fluxo de bytes para tratar caracteres unicode, um padrão para representar e manipular texto dos sistemas de escrita existente.
+
+No código do exemplo anterior, o método `read (c = in.read())` retorna um int tanto para o fluxo de bytes quanto para o fluxo de caracteres. Contudo:
+* Fluxo de bytes, o inteiro retornado = 8 bits de tamanho. 
+* Fluxo de caracteres, o inteiro retornado = 16 bits de tamanho.
+
+#### Lendo e escrevendo linhas
+Para manipular arquivos de textos, com informações separadas por **finalizador de linha** (\r, \n, \r\n), usamos a classe **BufferedReader** para ter uma melhor eficiência nas operações de leitura/escrita de dados, que geralmente são lentas já que acessam o disco. A classe BufferedReader acumula leitura ou escrita em um buffer (área temporária de memória).
+
+Além disso, utilizamos também a classe **PrintWriter** (utilizada pelo System.out) para ter mais conforto na escrita do texto. Ela fornece vários métodos convenientes para a escrita de texto, como o **printl**n e o **printf**.
+
+[Veja nesse exemplo](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/manipula%C3%A7%C3%A3o%20da%20dados/CopiarCaracter.java) um código que escreve, lê caracteres em arquivo e copia, linha a linha, dados de um arquivo texto para outro. 
+
+#### Persistência de objeto com controle de versão
+
+Assim como conseguimos gravar e recuperar linhas inteiras de arquivos-texto, também, conseguimos gravar e recuperar objetos.
+
+Para isso, precisamos primeiramente transformar a estrutura do objeto em uma sequência binária. Fazemos isso serializando o estado do objeto (seus atributos) em uma stream (cadeia de bytes), que pode então ser gravado em arquivo binário ou transportado por meio de uma rede.
+
+E, para poder ser serializada, uma classe precisa implementar a interface **java.io.Serializable** ou ser herdeira de uma classe que a implemente.
+
+Classes que não implementam a interface java.io.Serializable **não podem serializar/desserializar seu estado**. Ou seja, seus objetos não podem ser persistidos ou transferidos pela rede.
+
+## Interface gráfica: Interação por eventos
+
+Interfaces gráficas, também conhecidas como Graphical User Interfaces (GUI), são uma maneira intuitiva de interagir com programas de computador. Em vez de escrever comandos em uma linha de texto, o usuário pode interagir diretamente com elementos gráficos na tela, como botões, menus e caixas de texto.
+
+As interfaces gráficas funcionam com base de **disparo de eventos**. Nesse modelo, o fluxo do programa é determinado por eventos, como cliques de mouse, pressionamento de teclas, movimento do mouse etc. Vamos tomar como exemplo um botão em uma interface gráfica. O botão é um objeto na tela que o usuário pode interagir, não é? Quando o usuário clica no botão, um evento de clique é disparado. Esse evento é uma espécie de sinal que informa ao programa que algo aconteceu.
+
+Para que algo útil aconteça quando o usuário clica no botão, o programa deve ter um "ouvinte de eventos" (**event listener**) configurado para esse botão. Um ouvinte de eventos é um pedaço de código que "ouve" um tipo específico de evento e executa um bloco de código quando esse evento ocorre.
+
+### Swing
+
+Crie **interfaces gráficas** usando a biblioteca [Swing](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/04-swing). 
+   * Execute a aplicação de exemplo ["Usando_Swing.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/04-swing/Usando%20Swing/dist).
+   * Execute a aplicação de exemplo ["imagens.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/04-swing/relogio/Imagens/dist) para obeter a data e hora do sistema operacional.
+   * Execute a aplicação ["SwingJanelaAutomatica.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/06-SwingJanelaAutomatica/dist) para um exemplo de interatividade com o usuário.
+   * Veja um exemplo de aplicação gráfica usando a **biblioteca Swing** para [somar](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/02-SomaSwing/dist) dois valores inteiros, e outro para [calcular a idade](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/04-Manipula%C3%A7%C3%A3o%20de%20dados/03-CalculaIdade/dist) a partir da data e hora atual do sistema operacional.
+   * Veja um [exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/02-SwingMath/dist) usando a Swing para achar as raizes, o cubo, o quadrado e o resto da divisão de um inteiro.
+   * Execute o jogo ["Genio.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/05-operadores/04-Genio/dist) desenvolvido com a biblioteca *Swing* e *Math*.
+   * [Manipule um vetor](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/08-vetores/02-VetorSwing/dist) de forma prática usando a biblioteca Swing, insirindo e apagando valores em qualquer posição do vetor usando o mouse.
+   * A aplicação ["Triangulos.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/06-estrutura%20condicional/03-Triangulos/dist) verifica qual é o tipo do triângulo.
+     
+### JavaFX
+
+Crie **interfaces gráficas** usando a plataforma **JavaFX**. 
+  * Veja o exemplo ["OlaMundo.jar"](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/03-pacotes(biblioteca)/05-JavaFX/OlaMundo/dist).
+
+## Programação orientada a objetos (POO) no Java
+A programação orientada a objetos tem o objetivo de aproximar o mundo digital do mundo real.  
+
+### A evolução dos métodos de programação
+Quando os computadores começaram a surgir, na década de 40, a programação era feita em **baixo nível**. Quem fornecia as instruções para o cumputador realizar uma ação eram os próprios engenheiros que construiam os computadores, e as instruções eram binárias ou decimais. Esse tipo de programação é chamada linguagem de máquina. Dando sequência aos métodos de programação, surgil a linguagem de alto nível tornando a **programação linear**, os comandos eram mais compreensíveis para humanos, mas ainda sem rotinas internas.
+
+A evolução da programação linear deu origem à **programação estruturada** no final da década de 60, permitindo que pequenos pedações da programação linear  fosse executados fora da ordem natural, dando origem aos sistemas. Com o crescimento dos sistemas a programação estruturada começou a falhar em sua metodologia, e surgiu a **programação modular**, permitindo o desenvolvimento de softwares que envolve dividir um programa em partes menores e independentes chamadas módulos. Cada módulo tem uma responsabilidade bem definida e interage com outros módulos através de interfaces claramente definidas. Essa abordagem promove a reutilização de código, a facilidade de manutenção e a escalabilidade do software. Apliando os conceitos da programação modular, surgiu a **programação orientada a objetos**.
+
+**Alan Kay**, o pai da POO, que era formado em biologia e matemática desenvolveu a POO baseado na forma natural de como as coisas se relacionam no mundo real. Veja a baixo o seu postulado:
+> O computador ideal deve funcionar como um
+> organismo vivo, isso é, cada célula se relaciona
+> com outras a fim de alcançar um objetivo, mas
+> cada uma funciona de forma autônoma. As
+> células poderiam também reagrupar-se para
+> resolver um outro problema ou desempenhar
+> outras funções.
+
+### Vantagens da POO
+Todo software orientado a objetos é:
+* **confiável**: O isolamento entre as parte gera software seguro. Ao alterar uma parte, nenhuma outra é afetada.
+* **Oportuno**: Ao dividir tudo em partes, várias delas podem ser desenvolvidas em paralelo.
+*  **Manutenível**: Atualizar um software é mais fácil. Uma pequena modificação vai beneficiar todas as partes que usarem o objeto.
+*  **Extensível**: O software não é estático. Ele deve crescer para permanecer útil.
+*  **Reutilizável**: Podemos usar o objeto de um sistema que criamos em outro sistema fulturo.
+*  **Natural**: Mai fácil de entender. Você se preocupa mais na funcionalidade do que nos detalhes de implementação.
+
+### O que é um objeto
+Objeto é uma coisa material ou abstrata que pode ser percebido pelos sentidos e descrita por meios de suas características, comportamento e estado atual. Em programação os objetos são representados por classes, responsável por classificar características, comportamento e estado atual de um objeto.
+
+Por exemplo, uma objeto "Carro" pode ter atributos como cor, modelo, métodos como acelerar e frear, e o estado atual como ligado ou desligado. 
+
+#### As características
+Todo objeto possui pelo menos uma característica que descreve oque esse objeto tem, em programação essas características são chamadas de **atributos**.
+
+#### O comportamento do objeto
+Objetos possuem comportamento responsável em realiza uma ação, em programação esses comportamentos são nomeados de **métodos**.
+
+#### Estado do objeto
+Em programação o estado atual do objeto é manipulado por métodos acessores e modificadores **getter** e **setter**. O getter diz qual é o estado atual de um determinado atributo do objeto, e o setter altera o estado desse atributo.
+
+### Criando objetos
+Para criar um objeto, antes é necessário planejar o seu molde. A partir desse molde é possível criar inúmeros objetos.
+Esse molde é chamado de **classe** e possui todas as características e comportamento (os atributos e métodos) do objeto a ser criado.
+
+O nome dado ao processo de criação de um objeto a parti de uma classe existente se chama **instanciar** um objeto. Com objeto instanciado (criado) é possível saber qual é o estado atual desse objeto e alterar esse estado, antes disso o estado do objeto é inexistem, pois ainda não foi instanciado.
+
+Em Java, um objeto existe apenas quando é instanciado com a palavra-chave **new**.
+
+Veja nesse [repositório](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src) como o código [Objetos.java](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src/objetos/Objetos.java) importa a classe [Fatorial.java](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src/classes/Fatorial.java) e instancia um objeto chamdado "f".
+
+#### Modificadores de acesso
+Indicam o nível de acesso aos atributos e métodos de uma classe Java, permintindo encapsular um objeto:
+* **Public**:Indica que a classe, atributo ou método é visível por qualquer outra classe, em qualquer pacote.
+* **Protected**: Classe proprietária e suas sub-classes podem ter acesso aos atributos e métodos, desde que estejam no mesmo pacote. Quando um atributo ou método é herdado de uma classe, onde este era protected, ele pode se tornar public na classe filha.
+* **Private**: Apenas a classe proprietária do atributos ou método tem acesso a estes. Quando um atributo ou método é herdade de uma classe, onde este era private, ele pode se tornar protected ou public na classe filha. 
+
+| Visibilidade     | Modificador de acesso | Classe | Subclasse | Pacote | Mundo |
+|------------------|---------------------|--------|------------|--------|-------|
+| Sem modificador (default) | -                   | ✔      | ✖          | ✔      | ✖     |
+| public           | public              | ✔      | ✔          | ✔      | ✔     |
+| protected      | protected           | ✔      | ✔          | ✔      | ✖     |
+| private          | private             | ✔      | ✖          | ✖      | ✖     |
+
+O início modificador que pode ser usado em uma classa e o **public** ou **default**.
+
+#### Método construtor
+É um método da classe usado para configurar os atributos e estado de um objeto no momento em que é instanciado, garantindo que o objeto esteja em um estado válido e utilizável. O método construtor tem o mesmo nome da classe em que está definido e pode, ou não, receber parâmetros para criar um objeto .
+
+A palavra-chave **this** em Java é usada como uma referência à instância atual de um objeto. Ela é especialmente útil quando precisamos distinguir entre os parâmetros da classe e os parametros de entrada do método construtor, que geralmente têm os mesmos nomes. Além disso, this também pode ser usado para chamar um construtor a partir de outro construtor dentro da mesma classe ou para passar a instância atual do objeto como um parâmetro para outro método. 
+ 
+Caso não seja implementado um construtor em uma classe, o compilador fornece um construtor padrão sem parâmetros em qualquer classe que não inclui explicitamente um construtor, e os atributos seram inicializados da seguinte forma.
+* Atributos numéricos receberam valor zero.
+* Atributos alfanuméricos receberam valor vazio (Null para os demais).
+* Atributos lógicos receberam valor falso.
+
+Veja nesse [código](https://github.com/marcospontoexe/Java/blob/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/01-Objetos/src/classes/Fatorial.java) como é definido o nível de acesso dos atributos e métodos, e como o método construtor configura os atributos e estado do objeto no momento do instanciamento.
+
+[Execute uma aplicação usando Swing e POO](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/02-FatorialSwing/dist).
+
+#### Static
+Em Java, quando usamos **static**, estamos dizendo que aquele atributo ou método pertence à classe toda, e não somente a um objeto único em específico a partir dela.
+A palavra-chave **static** significa que o **método** pertence à classe em si, não à uma instância específica (ou objeto) da classe. Em outras palavras, não precisamos criar um objeto para usar os métodos státicos– podemos simplesmente chamá-los diretamente na classe, por exemplo; ``NomeClasse.metodoEstatico()``;
+Quando declaramos um **atributo** como **static**, ele é compartilhado por todas as instâncias da classe: o atributo é mantido na mesma área de memória para todas as instâncias da classe. Isso significa que se um objeto da classe alterar o valor do atributo, todos os demais objetos da mesma classe terão o mesmo valor alterado no seu atributo.
+
+#### final static
+Usamos **final static** quando temos uma constante (atributo) que todos os objetos da classe compartilham e que não deve ser alterada.
+Final static define uma constante que todos os objestos da classe compartilham. A palavra-chave final significa que o valor do atributo não pode ser alterado após ser definido, e static significa que o atributo pertence à classe, e não a um objeto específico dessa classe. Portanto, qualquer objeto que criarmos terá acesso a esse mesmo valor.
+
+### Os pilares da POO
+A programação orientada a objetos se baseia em quatro pilares fundamentais: abstração, encapsulamento, herança e polimorfismo, que permitem construir uma classe mais eficiente com três grandes vantagens:
+1. Tonar mudanças invisíveis.
+2. Facilitar a reutilização de código.
+3. Reduzir os efeitos colaterais.
+
+#### 1° pilar: Abstração
+A abstração é o processo de identificar as características essenciais de um objeto e ignorar os detalhes irrelevantes.
+
+A orientação de objetos fornece vários recursos para que criemos abstrações (simplificações) do mundo real:
+
+* Com as **classes**, descrevemos em forma de software os conceitos do mundo real que estão sendo implementados.
+* **Agrupamos as classes** por meio do relacionamento entre classes, entendendo suas interações ou situações do todo e suas partes.
+* Com a *herança**, criamos relações de tipos entre as classes, agrupando-as em hierarquias, de acordo com sua similaridade.
+* Com o **encapsulamento**, conseguimos esconder detalhes complexos da implementação, enquanto fornecemos uma interface pública de mais simples entendimento.
+* Com os **pacotes**, agrupamos classes relacionadas por alguma característica ou função.
+* Com o **polimorfismo** passamos a descrever o conceito de uma operação, mesmo que ela possa ser realizada de formas diferentes.
+
+#### 2° pilar: Encapsulamento
+Oculta os detalhes de implementação do objeto através dos modificadores de acesso, permitindo que apenas as operações essenciais sejam acessadas de fora do objeto, criando uma interface bem definida entre o usuário e o código.
+
+##### Interface
+A interface é uma lista de serviços fornecidos por um componente. É o contato com o mundo exterior, que define o que pode ser feito com o objeto de uma classe. **A interface tem apenas métodos abstratos públicos**. 
+
+**Métodos abstratos** são aqueles métodos que não são implementados (desenvolvidos) na interface, são apenas previstos. 
+
+[Clique nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/03-encapsulamento/01-Interface/UsandoInterface/src/usandointerface) para ver uma implementação de inteface. Nesse exemplo o código principal "UsandoInterface.java" instancia um objeto ControleRemoto, da classe "ControleRemoto.java". A classe "ControleRemoto.java" implementa os métodos abstratos da classe "Controlador.java".
+
+##### Relacionamento entre classes
+O relacionamento entre classes descreve como as classes se interagem e se relacionam umas com as outras para alcançar um objetivo. Existem vários tipos de relacionamentos entre classes, incluindo associação, agregação, composição, herança e dependência.
+
+1. **Associação**: É um relacionamento entre duas classes onde uma classe está relacionada com a outra de alguma forma, mas cada uma delas pode existir independentemente uma da outra. Por exemplo, uma classe "Professor" pode estar associada a uma classe "Disciplina", indicando que um professor leciona uma ou mais disciplinas.
+2. **Agregação**: É um tipo de associação onde uma classe é composta por outras classes, mas as classes componentes podem existir independentemente da classe agregadora. Por exemplo, uma classe "Turma" pode ser composta por várias instâncias da classe "Aluno", mas os alunos podem existir sem a turma.
+
+    * [Clique nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/03-encapsulamento/02-relacionamento%20entre%20casses/main/src/main) para ver uma agregação entre classes. Na classe "Main.java" é instanciado 5 objetos da classe "Lutadores.java", e um objeto "fight" da classe "Luta.java", o objeto fight recebe dois objetos da classe Lutadores.java para realizar uma operação.
+
+3. **Composição**: É similar à agregação, porém mais forte. Na composição, as classes componentes são partes essenciais da classe agregadora e não podem existir independentemente dela. Por exemplo, um carro é composto por motor, rodas, transmissão, etc. Se o carro for destruído, suas partes também serão.
+4. **Herança**: É um relacionamento onde uma classe (sub-classe) herda os atributos e métodos de outra classe (superclasse). Isso permite a reutilização de código e estabelece uma relação "é um" entre as classes. Por exemplo, uma classe "Cachorro" pode herdar de uma classe "Animal", indicando que um cachorro é um tipo de animal.
+5. **Dependência**: É um relacionamento onde uma classe depende de outra para realizar sua funcionalidade, mas não há uma relação estrutural entre elas. Por exemplo, uma classe "CarrinhoDeCompras" pode depender de uma classe "Produto" para adicionar produtos ao carrinho.
+
+Em Java, **uma classe pode estender apenas uma classe**, mas pode **implementar várias interfaces**. Se você precisa que uma classe herde comportamentos de várias fontes, você pode precisar usar interfaces.
+
+#### 3° pilar: Herança 
+A herança permite que uma classe herde características e comportamentos de outra classe, dependendo  do da configuração do modificador de acesso. Isso promove a reutilização de código e a criação de hierarquias de classes, onde as classes filhas (sub-classes) herdam características da classe mãe (classe progenitora, ou super classe) e podem adicionar suas próprias características exclusivas.
+
+A supre classe também é conhecida como **classe raiz**, e as sub-classes que não tem  classes filhas são conhecidas como **classe folha**. As classes filhas são descendentes das classes mães, e as classes mães são ancestral das classes filhas.
+
+* **Especialização**: É a criação de classes mais específicas a partir de classes mais gerais, quando uma classe mais específica (sub-classe) herda atributos e métodos de uma classe mais geral (superclasse).
+* **Generalização**: Quando duas ou mais classes compartilham características em comum, é uma prática comum criar uma classe mais geral que represente essas características comuns. As sub-classes então herdam essas características da superclasse, o que promove a reutilização de código e a organização hierárquica das classes.
+
+**Herança de implementação** também conhecida como herança pobre, acontece quando uma classe filha não tem nenhum atributos ou métodos próprio, apenas aqueles atributos e métodos que foram herdados da classe mãe.
+
+**Herança para diferença** acontece quando uma classe filha tem seus próprios atributos ou métodos, mais aqueles atributos e métodos herdados da classe mãe.
+
+* **Classe abstrata**: Não pode ser instanciada (não pode gerar objetos), e so pode servir como classe mãe.
+É possível ter uma classe abstrata que é derivada (ou filha) de outra classe, que pode ser tanto abstrata quanto não abstrata. Se isso acontecer, você tem a opção de adicionar mais métodos abstratos na classe-filha. Além disso, não é obrigatório implementar todos os métodos abstratos que foram herdados da classe-pai. Esses métodos podem continuar sendo abstratos na classe-filha.
+* **Método abstrato**: Declarado mas não pode ser implementado na sua classe mãe, e deve ser sobrescrito na classe filha. Só pode existir dentro de uma Interface ou dentro de uma classe abstrata .
+* **Classe final**: É obrigatóriamente uma classe folha, não pode ter classe filha.
+* **Método final**: Não pode ser sobrescrito pelas suas sub-classes, ou seja não pode gerar uma especialização do método final, é obrigatoriamente herdado. Veja mais sobre **sobrescrição** no tópico de **polimorfismo**.
+
+##### Encadeamento de construtores
+Todo objeto, ao ser instanciado, precisará ser completamente construído antes de ser utilizado. Por isso, classes-filhas devem chamar um dos construtores da sua classe mãe, por meio da palavra-chave **super**.
+
+É importante que você saiba algumas regras sobre encadeamento de construtores:
+
+1. Construtores não são herdados. Assim, você precisará criar um construtor na classe-filha mesmo que a única coisa que ele faça seja chamar **super** (construtor da classe mãe).
+2. A chamada ao comando **super** deve estar na primeira linha do construtor.
+3. Além do comando **super**, há também o comando **this**, que permite chamar um construtor da mesma classe.
+4. Você só pode ter um único comando **super** ou this em cada construtor.
+
+[Clique aqui](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/04-heran%C3%A7a/heranca/src/heranca) para ver um exemplo onde objetos de várias classes filhas da classe "Pessoa.java" são instanciados na classe "Heranca.java":
+
+* A classe raiz (classe abstrata) "Pessoa.java" com os atributos "nome", "idade", "sexo" e um método final chamado "fazerAniversario()" que não pode ser sobrescrito nas classes filhas.
+* A classe "Aluno.java" herda os atributos e métodos da classe raiz através da herança para diferença, já que possui seus próprios atributos "matricula", "curso" e o método "pagarMensalidade()".
+* A classe "Professor.java", também implementada com herança para diferença, possui os atributos "especialidade", "salario" e o atributo "receberAumento()".
+* A classe "Visitante.java" é implementada através da herança de implementação, pois não tem nenhum atributos ou métodos além daqueles herdados pela classe mãe.
+* A classe "Tecnico.java" é uma especialização da classe "Aluno.java", ou seja Tecnico é a classe filha de Aluno, e possui o atributo "registroProfissional" e o método "praticar()". A classe Tecnico é uma classe final, isso significa que não é possível criar classes filhas da classe Tecnico
+* A classe "Bolsista.java" também é uma especialização da classe "Aluno.java" e também é uma classe final. Possui o atributo "bolsa", um método "renovarBolsa()", e mais um método "pagarMensalidade()" que é sobrescrito da classe Aluno.
+
+#### 4° pilar: Polimorfismo 
+Polimorfismo significa "muitas formas" e refere-se à capacidade de um objeto executar diferentes comportamentos dependendo do contexto. Os mais usados são o polimorfismo de **sobreposição** (ou override) e de **sobrecarga** de métodos. Existem outros tipos de polimorfismos, polimorfismo de inclusão e o paramétrico.
+
+A **assinatura do método** depende da quantidade e tipo dos parâmetros de entrada. Quando os métodos tem a mesma quantidade e tipos de parâmetros de entrada, eles tem a mesma assinatura.
+Quando o método tem o mesmo nome dentro de uma mesma classe, mas parâmetros ou tipos de retorno diferentes, dizemos que os métodos tem **assinaturas diferentes**.
+**Apenas mudar o tipo de retorno do método não é suficiente para sobrecarregar um método**. Se você tiver dois métodos com o mesmo nome e a mesma lista de parâmetros, mas com tipos de retorno diferentes, isso resultará em um erro de compilação.
+
+##### Sobreposição
+Acontece quando um método é substituido de uma classe mãe em uma classe filha, possui o mesmo nome e usa a mesma assinatura. O método sobrescrito não fica na mesma classe, ele é herdado de outra classe.
+
+Quando um método abstrato é herdado para uma classe filha, esse método deve ser desenvolvido na classe filha, já que esse método não é  implementado na classe mãe. 
+
+[Veja nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/05-polimorfismo/01-SobrePosicao/src/sobreposicao) como o **polimorfismo de sobreposição** é usado para sobrescrever métodos da classe mãe para que esses métodos tenham um comportamento diferente para cada classe.
+A classe abstrata "Animal.java" é a classe raiz, e possui os atributos "nome", "sexo", "idade", e os **métodos abstratos** "locomover()", "alimentar()" e "emitirSom()". Esses métodos não podem ser desenvolvidos na classe raiz, e obrigatoriamente devem ser desenvolvidos nas classes filhas, sendo que cada classe filha tera um comportamento diferente para esses métodos sobrepostos. Não é obrigatório desenvolver os métodos abstratos nas classes filhas das filhas, caso os métodos abstratos não seja desenvolvidos, estas classes herdaram as características dos métodos de sua classe mãe, que nesse caso é a classe filha da classe raiz.
+
+##### Sobrecarga
+O polimorfismo de sobrecarga acontece quando os métodos possuem o mesmo nome, assinatura diferente, e estão na mesma classe. 
+
+[Veja nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/05-polimorfismo/02-SobreCarga/src/sobrecarga) a implementação de métodos usando o polimorfismo de sobrecarga.
+Na casse "SobreCarga.java" é instanciado um objeto chamado "c", que pertence à classe "Cachorro.java". Na classe Cachorro existem quatro métodos chamados "reagir" porem todos tem uma assinatura diferente.
+
+##### Chamando métodos sobrescritos da classe-pai
+Diferentemente do que ocorre nos construtores, você pode utilizar o **super** para invocar métodos da classe mãe em qualquer linha – e até mesmo mais de uma vez. 
+Todos os métodos da classe-mãe são herdados automaticamente. Ou seja, você só precisa utilizar o **super** se a classe-filha **sobrescreveu** o método e você quer diferenciar a chamada entre a versão da classe-filha da classe mãe.
+  
+### Agregação entre classes
+[Nesse exemplo](https://github.com/marcospontoexe/Java/tree/main/Material%20did%C3%A1tico/Curso%20em%20v%C3%ADdeo/10-objetos/06-agrega%C3%A7%C3%A3o%20entre%20classes/Desafio/src/desafio) a classe de agregação (Vizualizacao.java) tem a função de relacionar quem está assintindo, e o que está sendo assistido. "Quem está assistindo" é um objeto da classe "Avaliador.java" e representa uma pessoa, e "o que está sendo assistido" é um objeto da classe vídeo e representa um vídeo. Ao instanciar um objeto da classe de agregação, o atributo "total de vídeos assitido" da classe Avaliador é incrementado, significando que a pessoa assitiu mais um vídeo, alem disso, o atributo "Views" da classe vídeo também é incrementado, significando que aquele vídeo recebeu mais uma vizualização.
+* A classe "Video.java" implementa os métodos abstratos "play", "pause", "like", da interface "AcoesVideo.java". 
+* A classe "Avaliador.java" é uma classe filha da classe abstrata "Pessoa.java". O construtor da classe filha chama a classe mãe com os atributos do construtor da classe mãe.
+* A classe "Vizualizacao.java" instancia um obejeto chamado "espectador" para fazer uma agregação entre as classes Vizualizacao e Avaliador. E também um objeto chamado "filme" para fazer uma agregação entre as classes Vizualizacao e Video. 
