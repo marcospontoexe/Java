@@ -33,7 +33,7 @@ java -cp $out variaveis.Variaveis
 - Executar um jar já gerado: `java -jar "dist\Genio.jar"`.
 - Com Ant/NetBeans disponível: `ant clean`, `ant jar` (gera `dist/`) e `ant run`, dentro da pasta do projeto.
 - `05-operadores/04-Genio` depende de `org.netbeans.lib.awtextra.AbsoluteLayout`. Adicione `dist/lib/AbsoluteLayout.jar` ao classpath.
-- `03-pacotes(biblioteca)/05-JavaFX/OlaMundo` importa `javafx.*`, que não vem com o JDK moderno. Compilá-lo exige o OpenJFX. A classe da aplicação é `olamundo.OlaMundo`; `com.javafx.main.Main` é o launcher antigo do empacotador.
+- `03-pacotes(biblioteca)/05-JavaFX/OlaMundo` importa `javafx.*`, que não vem com o JDK moderno. Compilá-lo exige o OpenJFX. A classe da aplicação é `olamundo.OlaMundo`; `com.javafx.main.Main` é o launcher antigo do empacotador. Para executar o `dist/OlaMundo.jar` no JDK 25: `java --module-path <javafx-sdk>/lib --add-modules javafx.controls,javafx.fxml -jar OlaMundo.jar` (testado com o JavaFX SDK 25.0.4). **Não** acrescente `--enable-native-access=javafx.graphics` para calar os avisos: nesta máquina, com essa opção, a aplicação fecha logo ao abrir (código 0, sem erro).
 
 ## Convenções importantes
 

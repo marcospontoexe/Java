@@ -76,7 +76,12 @@ Programas de console, cada um focado em um recurso da linguagem.
 
 Cada pasta é um projeto NetBeans independente, com o código em `src/`. É preciso ter o Java 18 ou mais recente instalado.
 
-- **Aplicações gráficas:** baixe o `.jar` e execute com `java -jar Triangulos.jar` (ou com um duplo clique). O `Genio.jar` precisa da pasta `lib/` que fica ao lado dele em `dist/`. O `OlaMundo.jar` foi feito para o Java 8, que ainda trazia o JavaFX embutido.
+- **Aplicações gráficas:** baixe o `.jar` e execute com `java -jar Triangulos.jar` (ou com um duplo clique). O `Genio.jar` precisa da pasta `lib/` que fica ao lado dele em `dist/`.
+- **Aplicação JavaFX:** o JavaFX não vem mais com o Java desde a versão 11, então o `OlaMundo.jar` precisa do JavaFX SDK, disponível em [openjfx.io](https://openjfx.io/). Baixe o SDK da mesma versão do seu Java, descompacte e execute o comando abaixo, trocando o caminho pelo da pasta `lib` do SDK. Os avisos de "restricted method" que o Java mostra no terminal não impedem a execução.
+
+  ```powershell
+  java --module-path "C:\javafx-sdk-25.0.4\lib" --add-modules javafx.controls,javafx.fxml -jar OlaMundo.jar
+  ```
 - **No NetBeans:** abra a pasta do projeto em *File > Open Project* e execute com F6.
 - **Pelo terminal:** compile e execute a classe principal, indicada em `main.class` no arquivo `nbproject/project.properties`:
 
