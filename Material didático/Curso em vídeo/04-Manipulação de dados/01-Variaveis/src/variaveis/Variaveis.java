@@ -1,4 +1,5 @@
 package variaveis;
+import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Scanner;   // para manipular entrada de dados
 
@@ -28,11 +29,11 @@ public class Variaveis {
         Não pode ser usado em atributos!!!
         */
         var carros = new ArrayList ();  
-        var nome = "Orientação a Objetos
+        var curso = "Orientação a Objetos";
         
                 
         //-------------------MANIPULANDO SAÍDA DE DADOS--------------------------
-        System.out.print("\nsua idade eh: " + idade + "anos."\n");        // O caracter especial \n pula uma linha
+        System.out.print("\nsua idade eh: " + idade + "anos.\n");        // O caracter especial \n pula uma linha
         System.out.println("sua idade eh: " + idade + "anos.");                //imprime na tela e pula uma linha
         //impressão formatada 
         System.out.printf("seu salário eh: %.2f R$!\n", gasolina);      //usar \n para pular linha
@@ -49,11 +50,11 @@ public class Variaveis {
         System.out.printf("O aluno %s tirou nota %.1f \n", aluno, nota);
 
         System.out.println("Digite o peso do aluno!");
-        double peso =  teclado.nextDouble();
+        double pesoAluno =  teclado.nextDouble();
         System.out.println("Digite a idade do aluno!");
-        int idade =  teclado.nextInt();
+        int idadeAluno =  teclado.nextInt();
 
-        scanner.close(); //fechamos o objeto Scanner para liberar os recursos utilizados para a leitura de dados.
+        teclado.close(); //fechamos o objeto Scanner para liberar os recursos utilizados para a leitura de dados.
         
         
         //----------------CONVERSÃO DE VARIÁVEL---------
